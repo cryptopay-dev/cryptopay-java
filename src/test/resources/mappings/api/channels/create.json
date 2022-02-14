@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/channels",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"name\":\"Channel name\",\"receiver_currency\":\"BTC\",\"pay_currency\":\"ETH\"}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/channels/create.json"
+  }
+}

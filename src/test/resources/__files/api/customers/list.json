@@ -1,0 +1,15 @@
+{
+  "data": [
+    {
+      "id": "CUSTOMER-123",
+      "currency": "EUR",
+      "refund_addresses": {
+        "BTC": "2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ"
+      }
+    }
+  ],
+  "meta": {
+    "total": 1,
+    "has_more": false
+  }
+}

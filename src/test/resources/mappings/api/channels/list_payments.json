@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/channels/15d0bb11-1e9f-4295-bec5-abd9d5a906a1/payments",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/channels/list_payments.json"
+  }
+}

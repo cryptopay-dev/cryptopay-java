@@ -1,0 +1,10 @@
+{
+  "data": {
+    "id": "e2abd0899bada2814e6f6aa08aae61f8",
+    "currency": "EUR",
+    "refund_addresses": {
+      "BTC": "2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg",
+      "ETH": "0x54baa6f4ff2374b2f8f3a32c0c3dad0acbdb42b2"
+    }
+  }
+}

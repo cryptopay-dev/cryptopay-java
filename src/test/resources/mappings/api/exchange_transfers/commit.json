@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/exchange_transfers/36d00b67-dec5-4437-a79c-400b9a138ff1/commit",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    }
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/exchange_transfers/commit.json"
+  }
+}

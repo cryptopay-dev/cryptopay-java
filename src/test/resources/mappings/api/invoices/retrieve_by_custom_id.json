@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/invoices/custom_id/PAYMENT-123",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/invoices/retrieve_by_custom_id.json"
+  }
+}

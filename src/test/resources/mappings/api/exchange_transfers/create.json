@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/exchange_transfers",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"charged_currency\":\"EUR\",\"charged_amount\":10,\"received_currency\":\"BTC\",\"force_commit\":false}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/exchange_transfers/create.json"
+  }
+}

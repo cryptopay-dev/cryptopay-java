@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/invoices/2738682a-11ff-4013-8380-6a70df995ea9/recalculations",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"force_commit\":false}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/invoices/create_recalculation.json"
+  }
+}

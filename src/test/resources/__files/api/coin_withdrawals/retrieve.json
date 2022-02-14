@@ -1,0 +1,31 @@
+{
+  "data": {
+    "id": "3cf9d1c4-6191-4826-8cae-2c717810c7e9",
+    "custom_id": null,
+    "customer_id": null,
+    "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+    "txid": "31114ad287628c2a462f6cbce89035460a56af156b14b396165f26151dd8c762",
+    "status": "completed",
+    "charged_amount": "100.0",
+    "charged_currency": "EUR",
+    "received_amount": "0.00184519",
+    "received_currency": "BTC",
+    "network_fee": "0.00000216",
+    "network_fee_level": "average",
+    "fee": "0.0",
+    "fee_currency": "BTC",
+    "exchange": {
+      "pair": "BTCEUR",
+      "rate": "53590.0452",
+      "fee": "1.0",
+      "fee_currency": "EUR"
+    },
+    "risk": {
+      "score": 8.16,
+      "level": "high",
+      "resource_name": "default",
+      "resource_category": "unknown"
+    },
+    "created_at": "2021-10-18T06:48:04+00:00"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "data": {
+    "id": "e177d55b-96cd-472f-be3c-e9b43f4345e2",
+    "custom_id": "PAYMENT-123",
+    "customer_id": null,
+    "status": "new",
+    "status_context": null,
+    "address": "0x145af124eaf0415c055632352c08e2efb2c6cf5c",
+    "uri": "ethereum:0x145af124eaf0415c055632352c08e2efb2c6cf5c?value=0.2922619e17",
+    "price_amount": "100.0",
+    "price_currency": "EUR",
+    "pay_amount": "0.02922619",
+    "pay_currency": "ETH",
+    "fee": "1.0",
+    "fee_currency": "EUR",
+    "paid_amount": "0.0",
+    "exchange": {
+      "pair": "ETHEUR",
+      "rate": "3421.5898",
+      "fee": "0.0",
+      "fee_currency": "EUR"
+    },
+    "transactions": [],
+    "name": null,
+    "description": null,
+    "metadata": null,
+    "success_redirect_url": null,
+    "unsuccess_redirect_url": null,
+    "hosted_page_url": "https://hosted-business-sandbox.cryptopay.me/invoices/e177d55b-96cd-472f-be3c-e9b43f4345e2",
+    "created_at": "2021-10-14T11:34:30+00:00",
+    "expires_at": "2021-10-14T11:44:30+00:00"
+  }
+}

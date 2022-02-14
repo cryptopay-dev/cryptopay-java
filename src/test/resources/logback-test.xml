@@ -1,0 +1,5 @@
+<configuration>
+    <include resource="logback-config.xml"/>
+
+    <logger name="me.cryptopay" level="DEBUG"/>
+</configuration>

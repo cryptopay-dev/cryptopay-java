@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/invoices/7e274430-e20f-4321-8748-20824287ae44/refunds",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"address\":\"0xf3532c1fd002665ec54d46a50787e0c69c76cd44\"}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/invoices/create_refund.json"
+  }
+}

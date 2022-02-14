@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "/api/customers/CUSTOMER-123",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"refund_addresses\":{\"BTC\":\"2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ\"}}"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/customers/update.json"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/risks/score",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"address\":\"2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg\",\"currency\":\"BTC\",\"type\":\"source_of_funds\"}"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/risks/score.json"
+  }
+}

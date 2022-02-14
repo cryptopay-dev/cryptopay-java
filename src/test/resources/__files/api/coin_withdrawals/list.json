@@ -1,0 +1,1359 @@
+{
+  "data": [
+    {
+      "id": "3e877d2f-1232-4ab6-868e-372e2b91afaa",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "txid": null,
+      "status": "processing",
+      "charged_amount": "100.0",
+      "charged_currency": "EUR",
+      "received_amount": "0.00184519",
+      "received_currency": "BTC",
+      "network_fee": "0.00000216",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "53590.0452",
+        "fee": "1.0",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-10-18T07:09:29+00:00"
+    },
+    {
+      "id": "cdb4faf8-5956-4d01-a00c-7c1b3267a126",
+      "custom_id": "PAYMENT-123",
+      "customer_id": null,
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "txid": "91b56ef2164ae37e95ce82723ff46c83a3e211b1a2cd1afcc21bee8f6c663d64",
+      "status": "completed",
+      "charged_amount": "100.0",
+      "charged_currency": "EUR",
+      "received_amount": "0.00184519",
+      "received_currency": "BTC",
+      "network_fee": "0.00000216",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "53590.0452",
+        "fee": "1.0",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 4.61,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-18T06:49:21+00:00"
+    },
+    {
+      "id": "3cf9d1c4-6191-4826-8cae-2c717810c7e9",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "txid": "31114ad287628c2a462f6cbce89035460a56af156b14b396165f26151dd8c762",
+      "status": "completed",
+      "charged_amount": "100.0",
+      "charged_currency": "EUR",
+      "received_amount": "0.00184519",
+      "received_currency": "BTC",
+      "network_fee": "0.00000216",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "53590.0452",
+        "fee": "1.0",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 8.16,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-18T06:48:04+00:00"
+    },
+    {
+      "id": "464da305-0a23-4152-be2c-19757b348437",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x7d00c40f923f1cdb99a5a8e692db8a8804e06715",
+      "txid": "0x938d502017772080ff6ed86c65f01bdada0bb8e950056f0c4d4ed9d4c62aeb29",
+      "status": "sent",
+      "charged_amount": "10.0",
+      "charged_currency": "EUR",
+      "received_amount": "0.00275953",
+      "received_currency": "ETH",
+      "network_fee": "0.00020992",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "3333.9458",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 7.79,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-15T07:42:46+00:00"
+    },
+    {
+      "id": "8af236e5-7f0c-4839-903c-421cca60bcd1",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xf3532c1fd002665ec54d46a50787e0c69c76cd44",
+      "txid": "0x08603fd0442c133486fa33d6e0141250d3892be5b31cc99fc8c83055ecb5e96c",
+      "status": "sent",
+      "charged_amount": "0.02957117",
+      "charged_currency": "ETH",
+      "received_amount": "0.02928366",
+      "received_currency": "ETH",
+      "network_fee": "0.00028751",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "risk": {
+        "score": 8.25,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-14T11:41:33+00:00"
+    },
+    {
+      "id": "6ef100ed-40a8-425b-9da7-c42901a8ec5d",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x201ec58a0c18853404df6aa788121fd05379a7c9",
+      "txid": "0x6bcccef868e16aad9c9573fc62722bfd16bcdf33f972b86d87db29a07a3735e2",
+      "status": "sent",
+      "charged_amount": "100.0",
+      "charged_currency": "USD",
+      "received_amount": "0.02623524",
+      "received_currency": "ETH",
+      "network_fee": "0.00028751",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "3732.6446",
+        "fee": "1.0",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 8.83,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-14T11:14:54+00:00"
+    },
+    {
+      "id": "ec1129a2-1cba-4a6f-9e4f-f70b9e32340d",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xf3532c1fd002665ec54d46a50787e0c69c76cd44",
+      "txid": "0x85bb90edc4633bd65a988048d4332189e75bde1af5ef0936dd3629223272213b",
+      "status": "sent",
+      "charged_amount": "113.3",
+      "charged_currency": "USD",
+      "received_amount": "0.02986987",
+      "received_currency": "ETH",
+      "network_fee": "0.00028751",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "3718.9619",
+        "fee": "1.14",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 6.93,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-14T11:04:06+00:00"
+    },
+    {
+      "id": "6ab237c3-76ea-4cb0-84ef-531b5d5f9156",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xf3532c1fd002665ec54d46a50787e0c69c76cd44",
+      "txid": "0xb3138681d98c1762201e45f656c1200b3a638009433d546d62005e6d684b23d5",
+      "status": "sent",
+      "charged_amount": "113.3",
+      "charged_currency": "USD",
+      "received_amount": "0.02986987",
+      "received_currency": "ETH",
+      "network_fee": "0.00028751",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "3718.9619",
+        "fee": "1.14",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 7.33,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-14T11:04:04+00:00"
+    },
+    {
+      "id": "dcbde4fa-cbf0-4378-aa1f-e72117717085",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xb584feaebc60ed969d472d16813b64d7822a1bb9",
+      "txid": "0xbc61a697c85c8d28bb719d7f8805b85ff60466ad80f2e9db5444cc553a992ca5",
+      "status": "completed",
+      "charged_amount": "0.00035645",
+      "charged_currency": "ETH",
+      "received_amount": "0.0001",
+      "received_currency": "ETH",
+      "network_fee": "0.00025645",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "risk": {
+        "score": 7.2,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-06T10:31:21+00:00"
+    },
+    {
+      "id": "44187405-875c-436a-a585-922a55340465",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xb584feaebc60ed969d472d16813b64d7822a1bb9",
+      "txid": "0x8f15c32644fd21a9d40da6f1658f5768f16c69adf7795ce1e5a524bb737b9168",
+      "status": "completed",
+      "charged_amount": "0.01024689",
+      "charged_currency": "ETH",
+      "received_amount": "0.01",
+      "received_currency": "ETH",
+      "network_fee": "0.00024689",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "risk": {
+        "score": 4.44,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-04T15:05:59+00:00"
+    },
+    {
+      "id": "dd1fcf44-3065-4d2f-9c73-ce485e8add9e",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xb584feaebc60ed969d472d16813b64d7822a1bb9",
+      "txid": "0xb2274e82241172d786865dde9a9fc819bb0aaf0fee8bbf4c4ea528c991ce4601",
+      "status": "completed",
+      "charged_amount": "0.10024689",
+      "charged_currency": "ETH",
+      "received_amount": "0.1",
+      "received_currency": "ETH",
+      "network_fee": "0.00024689",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "risk": {
+        "score": 4.33,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-04T15:05:40+00:00"
+    },
+    {
+      "id": "6c2c4f5c-5a2f-4425-b0b3-0caec5f217ae",
+      "custom_id": "224b7fb453a0df9ea35def7d82354297",
+      "customer_id": null,
+      "address": "mipcBbFg9gMiCh81Kj8tqqdgoZub1ZJRfn",
+      "txid": "8a4fedea857f20afb1de451324812bd1e6a8716e7a7434a2018ab4c8b2a0f63e",
+      "status": "completed",
+      "charged_amount": "0.01",
+      "charged_currency": "BTC",
+      "received_amount": "0.0098946",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0001",
+      "fee_currency": "BTC",
+      "risk": {
+        "score": 8.36,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-04T08:36:08+00:00"
+    },
+    {
+      "id": "6901d0ca-c6aa-4979-919f-a18b2e905b72",
+      "custom_id": "cc3b7057ad46a891e690f303533d97af",
+      "customer_id": null,
+      "address": "mipcBbFg9gMiCh81Kj8tqqdgoZub1ZJRfn",
+      "txid": "5a6e301c46a514c6bb6e0448d16e3e3e3b1d8550b91323088693d87fb93b41c9",
+      "status": "completed",
+      "charged_amount": "0.01",
+      "charged_currency": "BTC",
+      "received_amount": "0.0098946",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0001",
+      "fee_currency": "BTC",
+      "risk": {
+        "score": 3.47,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-03T16:01:13+00:00"
+    },
+    {
+      "id": "cddd8f08-1e40-465b-98ef-60cc8b7f006a",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2Mt3iUZz87SMPWRXDMUdFRTqeT4GyKv3WiH",
+      "txid": "8b4777fb0fcff6e71c86637e8f1ab26747fab4bc2fa170b7a30522f93e9b5384",
+      "status": "completed",
+      "charged_amount": "0.0000554",
+      "charged_currency": "BTC",
+      "received_amount": "0.00005",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "fast",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "risk": {
+        "score": 8.06,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-28T14:45:04+00:00"
+    },
+    {
+      "id": "8b755824-4679-4e77-83a0-34182f663c75",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x35ae4c76b50f6e0f2c8630695633e989cafcf77c",
+      "txid": "0xce98330b3699af5431a51159f5c415e06abc156d7aa648b2b5273119692ec434",
+      "status": "completed",
+      "charged_amount": "118.42",
+      "charged_currency": "USD",
+      "received_amount": "0.03945872",
+      "received_currency": "ETH",
+      "network_fee": "0.000042",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "2967.6184",
+        "fee": "1.19",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 3.57,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-22T12:10:46+00:00"
+    },
+    {
+      "id": "80917fee-2b5d-47be-acb2-f8d28796a166",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x35ae4c76b50f6e0f2c8630695633e989cafcf77c",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "118.28",
+      "charged_currency": "USD",
+      "received_amount": "0.03945872",
+      "received_currency": "ETH",
+      "network_fee": "0.000042",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "2964.0259",
+        "fee": "1.19",
+        "fee_currency": "USD"
+      },
+      "risk": null,
+      "created_at": "2021-09-22T12:08:06+00:00"
+    },
+    {
+      "id": "864d3115-5732-4540-bbd6-2dba7ef968e6",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xd5f420718cb03a36bb94c8f6009efc4748bbdd0a",
+      "txid": "0xba3710fce0704d450fde7143609a154fb282e97f2d5098838fbb21c49f5cd5c7",
+      "status": "completed",
+      "charged_amount": "119.53",
+      "charged_currency": "USD",
+      "received_amount": "0.03516871",
+      "received_currency": "ETH",
+      "network_fee": "0.00011501",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "3353.6574",
+        "fee": "1.2",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 5.56,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-13T06:18:57+00:00"
+    },
+    {
+      "id": "e5bfd7b2-0e72-43c0-98a2-f99c5a1db316",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpbZbVrf2H2pWaXwRV2aaCNnQ2tDoJhgaz?dt=41",
+      "txid": "6021543C9AE7214341C5351B04772CE695CA7A2F031DCFC73A4755EFA0AFB4CB",
+      "status": "completed",
+      "charged_amount": "125.23",
+      "charged_currency": "USD",
+      "received_amount": "90.849874",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPUSD",
+        "rate": "1.364506",
+        "fee": "1.26",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 8.58,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-03T14:58:28+00:00"
+    },
+    {
+      "id": "b86132fd-1c07-43bd-8255-e113a960628e",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpbZbVrf2H2pWaXwRV2aaCNnQ2tDoJhgaz?dt=41",
+      "txid": "8C9047662A4A79451CC2D0EC76FCDEE7CACA80A42E5F4937FB3B805E9C1C9F6A",
+      "status": "completed",
+      "charged_amount": "125.23",
+      "charged_currency": "USD",
+      "received_amount": "90.849874",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPUSD",
+        "rate": "1.364506",
+        "fee": "1.26",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 7.21,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-03T14:58:06+00:00"
+    },
+    {
+      "id": "74176fd5-fd27-4663-9fc8-77f411404698",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x2afab5047a71764242a2944f09550e77bdcaf008",
+      "txid": "0x2b28f3c3ffc579a7da32541e89766dece2b277ecfccbe8745127b5fe26f4b035",
+      "status": "completed",
+      "charged_amount": "120.35",
+      "charged_currency": "USD",
+      "received_amount": "0.0292493",
+      "received_currency": "ETH",
+      "network_fee": "0.000115",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "4056.9872",
+        "fee": "1.21",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 5.16,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-03T14:31:50+00:00"
+    },
+    {
+      "id": "3ed6aed0-58b1-4b12-8c85-0f0d9f4c7bf0",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xae3f3f6c1e5fa1c294edd9153a08b3be5d377982",
+      "txid": "0x1cc35e1409d2fa53c8a8ee44f710d8628d1290689db297ff4b41902f9f0e7fb1",
+      "status": "completed",
+      "charged_amount": "120.41",
+      "charged_currency": "USD",
+      "received_amount": "0.02936528",
+      "received_currency": "ETH",
+      "network_fee": "0.000063",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "4050.5188",
+        "fee": "1.21",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 8.89,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-09-03T13:57:43+00:00"
+    },
+    {
+      "id": "192d7f34-28af-4e47-91d6-6f5983f47585",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xdc4758888296167e832d261b6b1a769e950852fa",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "118.74",
+      "charged_currency": "USD",
+      "received_amount": "0.03451151",
+      "received_currency": "ETH",
+      "network_fee": "0.00004738",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHUSD",
+        "rate": "3401.1751",
+        "fee": "1.19",
+        "fee_currency": "USD"
+      },
+      "risk": null,
+      "created_at": "2021-08-24T11:05:44+00:00"
+    },
+    {
+      "id": "6cb676cb-4d65-4bff-b950-189c03f4d194",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xfeCEe33Cd9011aC3eF7C7747714EdaC3A11DD39c",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "10.0",
+      "charged_currency": "EUR",
+      "received_amount": "0.00319378",
+      "received_currency": "ETH",
+      "network_fee": "0.00005465",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "3047.6194",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-08-24T10:25:40+00:00"
+    },
+    {
+      "id": "59ef1584-3849-4705-8030-455ed2aec004",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2NF15TqiXev1nHo66XimydDtLQ4VNaaYgaj",
+      "txid": "6848d752a22e5c79c5c4787ba023186c09d2eb23470bde50a1683285b03d9557",
+      "status": "completed",
+      "charged_amount": "59.99",
+      "charged_currency": "USD",
+      "received_amount": "0.001933",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "exchange": {
+        "pair": "BTCUSD",
+        "rate": "30634.1642",
+        "fee": "0.6",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 4.36,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-07-20T13:00:34+00:00"
+    },
+    {
+      "id": "37efd81b-8d99-46e0-a071-c64b22dcf57a",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2N3aHxkx3ADfNwiTJF9jaJjg3gEz1VnDzqd",
+      "txid": "d7287a8ddffbb0f1d89d397c2197cd71320f4325f6bf8348f9b270c85dc5c989",
+      "status": "completed",
+      "charged_amount": "60.33",
+      "charged_currency": "USD",
+      "received_amount": "0.00176",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "exchange": {
+        "pair": "BTCUSD",
+        "rate": "33825.3528",
+        "fee": "0.61",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 8.08,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-07-09T10:54:38+00:00"
+    },
+    {
+      "id": "3c4c9925-26a0-4045-9795-f1b669325da3",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x516cf64763b17893f9defa60e35d6bee26535ef9",
+      "txid": "0x549ae0eade6c33f087eceb0f2b586486b0442775fe8ab90c56c211e774ce27b1",
+      "status": "completed",
+      "charged_amount": "54.99",
+      "charged_currency": "USD",
+      "received_amount": "50.0",
+      "received_currency": "USDT",
+      "network_fee": "0.811278",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTUSD",
+        "rate": "1.0713",
+        "fee": "0.55",
+        "fee_currency": "USD"
+      },
+      "risk": {
+        "score": 7.64,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-16T08:20:16+00:00"
+    },
+    {
+      "id": "fb06ae7e-7431-439c-99a5-ce7dd392ebe7",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xa93a3881a627e8c8eb583d8ae57c7828d438d075",
+      "txid": "0x0a1c986c95a77f06b35f39a5c600e291559362d557eb14a6e2a924cfe20a893c",
+      "status": "completed",
+      "charged_amount": "10.0",
+      "charged_currency": "EUR",
+      "received_amount": "0.00432062",
+      "received_currency": "ETH",
+      "network_fee": "0.000105",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "2236.9715",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 8.89,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-16T06:48:41+00:00"
+    },
+    {
+      "id": "44d8a222-469a-4fcc-8a0f-9584c1218034",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xa93a3881a627e8c8eb583d8ae57c7828d438d075",
+      "txid": "0x6774898692a0ba52eb280e5094183703bf7ad8ac15c142724cb9fe5bd860394a",
+      "status": "completed",
+      "charged_amount": "446.99",
+      "charged_currency": "EUR",
+      "received_amount": "500.0",
+      "received_currency": "USDT",
+      "network_fee": "0.810377",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8836",
+        "fee": "4.47",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 5.82,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-16T06:43:18+00:00"
+    },
+    {
+      "id": "e0b89037-7d62-40bb-a475-bbd91596d4a5",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xa93a3881a627e8c8eb583d8ae57c7828d438d075",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "9.8",
+      "charged_currency": "EUR",
+      "received_amount": "5.913661",
+      "received_currency": "USDT",
+      "network_fee": "5.064894",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8833",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-06-16T06:41:57+00:00"
+    },
+    {
+      "id": "b3ef94bd-4d3a-4517-b2f9-517a32c36ca0",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xa93a3881a627e8c8eb583d8ae57c7828d438d075",
+      "txid": "0xe3c4fe8d508e4005a1811384165d5a5c668ab192dffb4145ad394b3514b49d59",
+      "status": "completed",
+      "charged_amount": "9.8",
+      "charged_currency": "EUR",
+      "received_amount": "5.913661",
+      "received_currency": "USDT",
+      "network_fee": "5.064894",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8833",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 6.82,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-16T06:40:36+00:00"
+    },
+    {
+      "id": "66ac9ee1-bc74-4edf-9edb-0265a52dacec",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xed644daf1ecef1121cb1061341e2ac3bb7180d24",
+      "txid": null,
+      "status": "cancelled",
+      "charged_amount": "27.53",
+      "charged_currency": "EUR",
+      "received_amount": "0.01",
+      "received_currency": "ETH",
+      "network_fee": "0.002",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "2270.3751",
+        "fee": "0.28",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-06-09T16:30:24+00:00"
+    },
+    {
+      "id": "59452d20-cb2a-49be-b790-e446ea7ed72c",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x79db597bf4f80d10b2624ff6955e4b373c7a3185",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "9.72",
+      "charged_currency": "EUR",
+      "received_amount": "10.0",
+      "received_currency": "USDT",
+      "network_fee": "0.904367",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8816",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-06-07T10:32:46+00:00"
+    },
+    {
+      "id": "322582a5-8151-40a9-8fb5-22aad57f15d0",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x02b49eabe61dea41bde63d714fd9b7fcff3bd619",
+      "txid": "0x7de53f736fa2d06e885dcd2c658043aaab08ea347149851ee81d4246769a5cc8",
+      "status": "completed",
+      "charged_amount": "9.72",
+      "charged_currency": "EUR",
+      "received_amount": "10.0",
+      "received_currency": "USDT",
+      "network_fee": "0.900834",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8818",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 8.88,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-07T10:17:13+00:00"
+    },
+    {
+      "id": "fcad0d02-5bd8-45b2-be4d-7e14927298c5",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x3d8422cb3073b990a1e40261800bc84bca99305e",
+      "txid": "0xa91c569c1ada7b940856f093e4b76e650adc0674615eeb6fa3ddda89fb8147a8",
+      "status": "completed",
+      "charged_amount": "9.22",
+      "charged_currency": "EUR",
+      "received_amount": "10.0",
+      "received_currency": "USDT",
+      "network_fee": "0.339112",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8813",
+        "fee": "0.1",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 3.18,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-04T15:35:43+00:00"
+    },
+    {
+      "id": "e0026764-0e3e-4be6-b102-6ad5959a5c36",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xf718ced2060fe25f94a5c9d39782d953cb10c535",
+      "txid": "0xea36662a1f4b41e74015d0b726fca0353099fb3fb90f094b80dbf0bbf106b3b9",
+      "status": "completed",
+      "charged_amount": "10.65",
+      "charged_currency": "EUR",
+      "received_amount": "0.00447392",
+      "received_currency": "ETH",
+      "network_fee": "0.000042",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "2333.9598",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 3.29,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-04T15:34:14+00:00"
+    },
+    {
+      "id": "258ba07d-1f61-4fd4-b4c4-9bb3d94b2ddc",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x0f5482934c2bbe6f5633e3fbefa8ce3a0fda6818",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "10.86",
+      "charged_currency": "EUR",
+      "received_amount": "11.849746",
+      "received_currency": "USDT",
+      "network_fee": "0.340532",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8813",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-06-04T15:33:08+00:00"
+    },
+    {
+      "id": "91e7db17-3e02-49c3-98a4-d21f1fb72b55",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x2fcde404368376e7a24a9d2909fde379be5690c8",
+      "txid": "0x8a2c7333f16248d3cee13f794e9ab7448c344ed3836c22296cde6c7964b2dc24",
+      "status": "completed",
+      "charged_amount": "10.65",
+      "charged_currency": "EUR",
+      "received_amount": "0.00447392",
+      "received_currency": "ETH",
+      "network_fee": "0.000042",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "2333.9598",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 3.05,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-04T15:31:18+00:00"
+    },
+    {
+      "id": "d8445928-c257-4a31-bc42-72f508865c3e",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x2ccdd7067bbe7713f60ce9d6c607df9aec28c310",
+      "txid": null,
+      "status": "on_hold",
+      "charged_amount": "13.59",
+      "charged_currency": "EUR",
+      "received_amount": "10.0",
+      "received_currency": "USDT",
+      "network_fee": "5.19875",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8846",
+        "fee": "0.14",
+        "fee_currency": "EUR"
+      },
+      "risk": null,
+      "created_at": "2021-06-04T12:14:25+00:00"
+    },
+    {
+      "id": "374fc409-8e58-43ee-8680-c94b7fe20e06",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x2ccdd7067bbe7713f60ce9d6c607df9aec28c310",
+      "txid": "0x0e455fd3a73f4ea1506134d308c3070f560edf61d8ad2161564a5c0799d1183f",
+      "status": "completed",
+      "charged_amount": "13.64",
+      "charged_currency": "EUR",
+      "received_amount": "10.0",
+      "received_currency": "USDT",
+      "network_fee": "5.252832",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "USDT",
+      "exchange": {
+        "pair": "USDTEUR",
+        "rate": "0.8848",
+        "fee": "0.14",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 5.79,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-04T12:04:36+00:00"
+    },
+    {
+      "id": "d6afbc32-f83d-4e07-abe5-90574bb3e7ec",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x96dbb2fc574d90e15bba5483b535d5781e14169a",
+      "txid": "0x41f384f903923fd41741f48bc5b786ed83ac0f2b82c6bb60841dff5856ee1f92",
+      "status": "completed",
+      "charged_amount": "15.26",
+      "charged_currency": "EUR",
+      "received_amount": "0.0045079",
+      "received_currency": "ETH",
+      "network_fee": "0.002",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "2320.0951",
+        "fee": "0.16",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 6.97,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-04T11:52:45+00:00"
+    },
+    {
+      "id": "5c3c3676-f4e0-4c1f-a97c-4ad7da8838ab",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2MsVB89T9hbngbAuXHXzjpx53PJB8bP4Xcv",
+      "txid": "be234775374ccb356bb8c947e19f13a6f625b9a4ef5a5d258dfefb822c19ac30",
+      "status": "completed",
+      "charged_amount": "10.77",
+      "charged_currency": "EUR",
+      "received_amount": "0.000317",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "33052.1372",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 7.13,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-06-02T14:28:00+00:00"
+    },
+    {
+      "id": "d66b0cd6-7a16-43ca-882d-08890d29cdac",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0xd8f2790035de6e8caefa33440275a68ece418404",
+      "txid": "0x11fd1773acc8332647446c330b8a2a917c962e959a3ad7698f71317d7be1f905",
+      "status": "completed",
+      "charged_amount": "17.75",
+      "charged_currency": "EUR",
+      "received_amount": "0.00293003",
+      "received_currency": "ETH",
+      "network_fee": "0.002",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "3563.7695",
+        "fee": "0.18",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 7.21,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-05-11T10:55:53+00:00"
+    },
+    {
+      "id": "8bbd94bb-7a3a-4d16-bc30-426072509644",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "0x0d212e622eec91bf6678282d0be004bf68fc4b3d",
+      "txid": "0x7fc167062f9a5889ca72889e65ad109f397d1d0aabd76fe7516c62678bd18cc0",
+      "status": "completed",
+      "charged_amount": "15.53",
+      "charged_currency": "EUR",
+      "received_amount": "0.00427588",
+      "received_currency": "ETH",
+      "network_fee": "0.002",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "ETH",
+      "exchange": {
+        "pair": "ETHEUR",
+        "rate": "2447.8749",
+        "fee": "0.16",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 3.83,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-30T05:07:58+00:00"
+    },
+    {
+      "id": "ec2c60a2-0761-42f8-bd8a-b07b03718bb4",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2NBVg1mHsqvmAdHcwJW8MEwogwSP1xYrCTL",
+      "txid": "b4d287341cc7ffafac8c9f694aa80668508c064b2cfda3770630a6810bf5ce34",
+      "status": "completed",
+      "charged_amount": "0.0010054",
+      "charged_currency": "BTC",
+      "received_amount": "0.001",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "risk": {
+        "score": 7.9,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T16:00:41+00:00"
+    },
+    {
+      "id": "67f7155c-e2a0-4a6b-8534-c58dfeb1c4e6",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "2NBoReHBActLwfS1prgGem3BTKnzgSbnuAc",
+      "txid": "822a8bf2eec80ede01d307b62266196447c7d174791af6ca80a3601670306201",
+      "status": "completed",
+      "charged_amount": "0.0010054",
+      "charged_currency": "BTC",
+      "received_amount": "0.001",
+      "received_currency": "BTC",
+      "network_fee": "0.0000054",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "BTC",
+      "risk": {
+        "score": 7.57,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T15:50:48+00:00"
+    },
+    {
+      "id": "b28b846c-48cd-476c-b4c4-3eff4e2011ea",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpEGTQEjfyg5bB67L1BWf7eLWgUfdMNVKd?dt=6117",
+      "txid": "AA2E71965D582E774B8C44E2336D57680638817173C447691DBAF5409B95F9F0",
+      "status": "completed",
+      "charged_amount": "10.56",
+      "charged_currency": "EUR",
+      "received_amount": "10.980866",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPEUR",
+        "rate": "0.950921",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 3.3,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T15:28:45+00:00"
+    },
+    {
+      "id": "a20706a2-9733-4e5c-9dad-4c766ed9bda8",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpEGTQEjfyg5bB67L1BWf7eLWgUfdMNVKd?dt=6117",
+      "txid": "E43F44593C9EC7636B61790FAF9D025EE573A4726DF0592EC782151DB766F41F",
+      "status": "completed",
+      "charged_amount": "10.56",
+      "charged_currency": "EUR",
+      "received_amount": "10.980866",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPEUR",
+        "rate": "0.950921",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 5.43,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T15:28:43+00:00"
+    },
+    {
+      "id": "b7da9172-e792-486e-b465-673bb90b40d1",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpEGTQEjfyg5bB67L1BWf7eLWgUfdMNVKd?dt=6117",
+      "txid": "49BE03279DCB6B2EC2E05C276CA61C331D4D91A4118744E749455AE4326FED77",
+      "status": "completed",
+      "charged_amount": "10.56",
+      "charged_currency": "EUR",
+      "received_amount": "10.980866",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPEUR",
+        "rate": "0.950921",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 8.29,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T15:28:38+00:00"
+    },
+    {
+      "id": "db361424-d50c-4d31-a477-1629d15345f7",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpEGTQEjfyg5bB67L1BWf7eLWgUfdMNVKd?dt=6117",
+      "txid": "3BCDB7DDBD1B202D500CDDCA09059E8F7823691E011A64904C9AEB2947D5D109",
+      "status": "completed",
+      "charged_amount": "10.56",
+      "charged_currency": "EUR",
+      "received_amount": "10.980866",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPEUR",
+        "rate": "0.950921",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 6.08,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T15:28:36+00:00"
+    },
+    {
+      "id": "5fa022cc-199e-47a0-b2ca-e3ae3c780d9b",
+      "custom_id": null,
+      "customer_id": null,
+      "address": "rpEGTQEjfyg5bB67L1BWf7eLWgUfdMNVKd?dt=6117",
+      "txid": "8AE4EB595D84CB37B49F7078E3B6CB7CB7B760351AE45AF06774CAB2BF1C6D0B",
+      "status": "completed",
+      "charged_amount": "10.56",
+      "charged_currency": "EUR",
+      "received_amount": "10.980866",
+      "received_currency": "XRP",
+      "network_fee": "0.000045",
+      "network_fee_level": "average",
+      "fee": "0.0",
+      "fee_currency": "XRP",
+      "exchange": {
+        "pair": "XRPEUR",
+        "rate": "0.950921",
+        "fee": "0.11",
+        "fee_currency": "EUR"
+      },
+      "risk": {
+        "score": 8.6,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-04-23T15:28:34+00:00"
+    }
+  ],
+  "meta": {
+    "total": 382,
+    "has_more": true
+  }
+}

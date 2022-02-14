@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/coin_withdrawals",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"address\":\"2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ\",\"charged_currency\":\"EUR\",\"received_currency\":\"BTC\",\"charged_amount\":100.0,\"force_commit\":false}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/coin_withdrawals/create.json"
+  }
+}

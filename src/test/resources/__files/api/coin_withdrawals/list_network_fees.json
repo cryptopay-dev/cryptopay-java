@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "level": "fast",
+      "fee": "0.00000216",
+      "currency": "BTC"
+    },
+    {
+      "level": "average",
+      "fee": "0.00000216",
+      "currency": "BTC"
+    },
+    {
+      "level": "slow",
+      "fee": "0.00000216",
+      "currency": "BTC"
+    },
+    {
+      "level": "average",
+      "fee": "0.001",
+      "currency": "LTC"
+    },
+    {
+      "level": "average",
+      "fee": "0.000045",
+      "currency": "XRP"
+    },
+    {
+      "level": "average",
+      "fee": "0.0002531",
+      "currency": "ETH"
+    },
+    {
+      "level": "average",
+      "fee": "0.0001",
+      "currency": "BCH"
+    },
+    {
+      "level": "average",
+      "fee": "0.466609",
+      "currency": "USDT"
+    },
+    {
+      "level": "average",
+      "fee": "1.02685956",
+      "currency": "DAI"
+    }
+  ]
+}

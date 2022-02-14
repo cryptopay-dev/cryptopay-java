@@ -1,0 +1,92 @@
+{
+  "data": [
+    {
+      "id": "aabfb17b-2e88-4576-900f-fb2bf75b6f40",
+      "balance": "100.0",
+      "currency": "DAI",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "cfc56990-121b-4908-8c77-7250cd29a1ff",
+      "balance": "0.0",
+      "currency": "RUB",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "85eb3f0a-bf2c-4527-b54e-8a30897bea8f",
+      "balance": "122.855157",
+      "currency": "USDT",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "e98d0424-8b37-48ca-ac07-6552eb7fe5e9",
+      "balance": "0.0",
+      "currency": "TRY",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "9ecdbae0-e756-4e7f-99f3-13b7339041f1",
+      "balance": "3.1",
+      "currency": "BCH",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "4eaf42f0-8fce-42b1-9fad-0f48d243e20f",
+      "balance": "5428660.0",
+      "currency": "JPY",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "6bb10af3-de19-44ad-872d-6dd333df0359",
+      "balance": "10000.0",
+      "currency": "CNY",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "e1a24f9c-382f-494d-87cc-47707682b83a",
+      "balance": "4164.57",
+      "currency": "USD",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "31804390-d44e-49e9-8698-ca781e0eb806",
+      "balance": "9867.23",
+      "currency": "EUR",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "2d52b969-b8de-4a4e-9941-8f5cc9002279",
+      "balance": "0.0",
+      "currency": "GBP",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "551a50ae-b71d-4442-b786-0205a0927fd6",
+      "balance": "8.96405715",
+      "currency": "ETH",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "13d71aeb-400c-478b-87f5-f9c12e934984",
+      "balance": "179.88275",
+      "currency": "XRP",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "5ae8bd09-376a-4222-885b-a33b06501cad",
+      "balance": "0.198",
+      "currency": "LTC",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    },
+    {
+      "id": "56bc90b6-cd46-422e-8b72-73eda0886d9e",
+      "balance": "0.06842549",
+      "currency": "BTC",
+      "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006"
+    }
+  ],
+  "meta": {
+    "total": 14,
+    "has_more": false
+  }
+}

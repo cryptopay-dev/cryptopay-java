@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/coin_withdrawals/3e877d2f-1232-4ab6-868e-372e2b91afaa/commit",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/coin_withdrawals/commit.json"
+  }
+}

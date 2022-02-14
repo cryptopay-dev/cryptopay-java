@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "8ec1fe49-6487-473e-888f-252f1f617f75",
+    "charged_amount": "100.0",
+    "charged_currency": "EUR",
+    "received_amount": "0.0018142",
+    "received_currency": "BTC",
+    "custom_id": null,
+    "exchange": {
+      "pair": "BTCEUR",
+      "rate": "54569.4206",
+      "fee": "1.0",
+      "fee_currency": "EUR"
+    }
+  }
+}

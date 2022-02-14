@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "PATCH",
+    "url": "/api/channels/15d0bb11-1e9f-4295-bec5-abd9d5a906a1",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"status\":\"disabled\"}"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/channels/update.json"
+  }
+}

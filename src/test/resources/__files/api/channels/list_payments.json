@@ -1,0 +1,126 @@
+{
+  "data": [
+    {
+      "id": "704291ec-0b90-4118-89aa-0c9681c3213c",
+      "paid_amount": "0.00184519",
+      "paid_currency": "BTC",
+      "received_amount": "104.47",
+      "received_currency": "EUR",
+      "fee": "1.06",
+      "fee_currency": "EUR",
+      "txid": "4a46a2071635b6c504b72e6ecad8229e4c2efb1b2b10ac05da72b9c306ac36a2",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "57192.7353",
+        "fee": "0.0",
+        "fee_currency": "EUR"
+      },
+      "status": "completed",
+      "status_context": null,
+      "refund_address": null,
+      "coin_withdrawal_id": null,
+      "custom_id": null,
+      "customer_id": null,
+      "channel_id": "15d0bb11-1e9f-4295-bec5-abd9d5a906a1",
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "risk": {
+        "score": 6.23,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-18T07:09:54+00:00"
+    },
+    {
+      "id": "839ed785-07e5-4b58-b235-2cbac6ece9e1",
+      "paid_amount": "0.00184519",
+      "paid_currency": "BTC",
+      "received_amount": "104.77",
+      "received_currency": "EUR",
+      "fee": "1.06",
+      "fee_currency": "EUR",
+      "txid": "bf2690d53564e6b1fa510ecddf7472d6e6c679fd9a22d82d198d8d4b88f78448",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "57356.375",
+        "fee": "0.0",
+        "fee_currency": "EUR"
+      },
+      "status": "completed",
+      "status_context": null,
+      "refund_address": null,
+      "coin_withdrawal_id": null,
+      "custom_id": null,
+      "customer_id": null,
+      "channel_id": "15d0bb11-1e9f-4295-bec5-abd9d5a906a1",
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "risk": {
+        "score": 7.11,
+        "level": "medium",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-18T07:09:54+00:00"
+    },
+    {
+      "id": "d93bd627-f825-4ff5-bc3f-64f1fc572e86",
+      "paid_amount": "0.00184519",
+      "paid_currency": "BTC",
+      "received_amount": "0.0",
+      "received_currency": "EUR",
+      "fee": "0.0",
+      "fee_currency": "EUR",
+      "txid": "91b56ef2164ae37e95ce82723ff46c83a3e211b1a2cd1afcc21bee8f6c663d64",
+      "status": "on_hold",
+      "status_context": "illicit_resource",
+      "refund_address": null,
+      "coin_withdrawal_id": null,
+      "custom_id": null,
+      "customer_id": null,
+      "channel_id": "15d0bb11-1e9f-4295-bec5-abd9d5a906a1",
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "risk": {
+        "score": 8.68,
+        "level": "high",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-18T06:49:39+00:00"
+    },
+    {
+      "id": "6ceb11a5-22e9-43d7-9809-36ca70ae88e5",
+      "paid_amount": "0.00184519",
+      "paid_currency": "BTC",
+      "received_amount": "104.47",
+      "received_currency": "EUR",
+      "fee": "1.06",
+      "fee_currency": "EUR",
+      "txid": "31114ad287628c2a462f6cbce89035460a56af156b14b396165f26151dd8c762",
+      "exchange": {
+        "pair": "BTCEUR",
+        "rate": "57192.7353",
+        "fee": "0.0",
+        "fee_currency": "EUR"
+      },
+      "status": "completed",
+      "status_context": null,
+      "refund_address": null,
+      "coin_withdrawal_id": null,
+      "custom_id": null,
+      "customer_id": null,
+      "channel_id": "15d0bb11-1e9f-4295-bec5-abd9d5a906a1",
+      "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+      "risk": {
+        "score": 3.93,
+        "level": "low",
+        "resource_name": "default",
+        "resource_category": "unknown"
+      },
+      "created_at": "2021-10-18T06:48:30+00:00"
+    }
+  ],
+  "meta": {
+    "total": 4,
+    "has_more": false
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "data": {
+    "id": "ef329f6f-c8b1-49d1-be07-a83ce60252b9",
+    "custom_id": null,
+    "customer_id": null,
+    "address": "2Mz3bcjSVHG8uQJpNjmCxp24VdTjwaqmFcJ",
+    "txid": null,
+    "status": "pending",
+    "charged_amount": "100.0",
+    "charged_currency": "EUR",
+    "received_amount": "0.00184519",
+    "received_currency": "BTC",
+    "network_fee": "0.00000216",
+    "network_fee_level": "average",
+    "fee": "0.0",
+    "fee_currency": "BTC",
+    "exchange": {
+      "pair": "BTCEUR",
+      "rate": "53590.0452",
+      "fee": "1.0",
+      "fee_currency": "EUR"
+    },
+    "risk": null,
+    "created_at": "2021-10-18T07:09:30+00:00"
+  }
+}

@@ -1,0 +1,2820 @@
+{
+  "data": {
+    "LTCDAI": {
+      "buy_rate": "187.1837",
+      "sell_rate": "193.0754"
+    },
+    "LTC/DAI": {
+      "buy_rate": "187.1837",
+      "sell_rate": "193.0754"
+    },
+    "LTCUSDC": {
+      "buy_rate": "187.3876",
+      "sell_rate": "193.7713"
+    },
+    "LTC/USDC": {
+      "buy_rate": "187.3876",
+      "sell_rate": "193.7713"
+    },
+    "USDCKRW": {
+      "buy_rate": "1267.9686",
+      "sell_rate": "1214.1279"
+    },
+    "USDC/KRW": {
+      "buy_rate": "1267.9686",
+      "sell_rate": "1214.1279"
+    },
+    "BCHBRL": {
+      "buy_rate": "3588.2779",
+      "sell_rate": "3556.7672"
+    },
+    "BCH/BRL": {
+      "buy_rate": "3588.2779",
+      "sell_rate": "3556.7672"
+    },
+    "BCHCAD": {
+      "buy_rate": "805.9552",
+      "sell_rate": "798.8777"
+    },
+    "BCH/CAD": {
+      "buy_rate": "805.9552",
+      "sell_rate": "798.8777"
+    },
+    "BCHCOP": {
+      "buy_rate": "2433969.1244",
+      "sell_rate": "2412595.1079"
+    },
+    "BCH/COP": {
+      "buy_rate": "2433969.1244",
+      "sell_rate": "2412595.1079"
+    },
+    "USDCPEN": {
+      "buy_rate": "4.3069",
+      "sell_rate": "4.1241"
+    },
+    "USDC/PEN": {
+      "buy_rate": "4.3069",
+      "sell_rate": "4.1241"
+    },
+    "XRPPEN": {
+      "buy_rate": "4.896825",
+      "sell_rate": "4.833902"
+    },
+    "XRP/PEN": {
+      "buy_rate": "4.896825",
+      "sell_rate": "4.833902"
+    },
+    "BCHDAI": {
+      "buy_rate": "625.3115",
+      "sell_rate": "644.8284"
+    },
+    "BCH/DAI": {
+      "buy_rate": "625.3115",
+      "sell_rate": "644.8284"
+    },
+    "BCHDKK": {
+      "buy_rate": "4170.4992",
+      "sell_rate": "4133.8758"
+    },
+    "BCH/DKK": {
+      "buy_rate": "4170.4992",
+      "sell_rate": "4133.8758"
+    },
+    "BCHETH": {
+      "buy_rate": "0.16078298",
+      "sell_rate": "0.16749679"
+    },
+    "BCH/ETH": {
+      "buy_rate": "0.16078298",
+      "sell_rate": "0.16749679"
+    },
+    "BCHVND": {
+      "buy_rate": "14809016.7146",
+      "sell_rate": "14678970.625"
+    },
+    "BCH/VND": {
+      "buy_rate": "14809016.7146",
+      "sell_rate": "14678970.625"
+    },
+    "BCHZAR": {
+      "buy_rate": "9620.5853",
+      "sell_rate": "9536.1017"
+    },
+    "BCH/ZAR": {
+      "buy_rate": "9620.5853",
+      "sell_rate": "9536.1017"
+    },
+    "BTCDAI": {
+      "buy_rate": "59614.7964",
+      "sell_rate": "59337.5026"
+    },
+    "BTC/DAI": {
+      "buy_rate": "59614.7964",
+      "sell_rate": "59337.5026"
+    },
+    "BTCNZD": {
+      "buy_rate": "83743.9932",
+      "sell_rate": "87828.6603"
+    },
+    "BTC/NZD": {
+      "buy_rate": "83743.9932",
+      "sell_rate": "87828.6603"
+    },
+    "BTCSGD": {
+      "buy_rate": "79350.3649",
+      "sell_rate": "83220.7299"
+    },
+    "BTC/SGD": {
+      "buy_rate": "79350.3649",
+      "sell_rate": "83220.7299"
+    },
+    "BTCTHB": {
+      "buy_rate": "1955482.3984",
+      "sell_rate": "2050862.3085"
+    },
+    "BTC/THB": {
+      "buy_rate": "1955482.3984",
+      "sell_rate": "2050862.3085"
+    },
+    "BTCUSD": {
+      "buy_rate": "58850.0296",
+      "sell_rate": "64121.5499"
+    },
+    "BTC/USD": {
+      "buy_rate": "58850.0296",
+      "sell_rate": "64121.5499"
+    },
+    "DAIHUF": {
+      "buy_rate": "331.0375",
+      "sell_rate": "317.0098"
+    },
+    "DAI/HUF": {
+      "buy_rate": "331.0375",
+      "sell_rate": "317.0098"
+    },
+    "DAIUSDC": {
+      "buy_rate": "0.9942",
+      "sell_rate": "1.0115"
+    },
+    "DAI/USDC": {
+      "buy_rate": "0.9942",
+      "sell_rate": "1.0115"
+    },
+    "DAIVND": {
+      "buy_rate": "24361.0059",
+      "sell_rate": "23328.6997"
+    },
+    "DAI/VND": {
+      "buy_rate": "24361.0059",
+      "sell_rate": "23328.6997"
+    },
+    "ETHCNY": {
+      "buy_rate": "24350.8328",
+      "sell_rate": "25612.174"
+    },
+    "ETH/CNY": {
+      "buy_rate": "24350.8328",
+      "sell_rate": "25612.174"
+    },
+    "ETHCOP": {
+      "buy_rate": "14149374.8853",
+      "sell_rate": "14882293.9437"
+    },
+    "ETH/COP": {
+      "buy_rate": "14149374.8853",
+      "sell_rate": "14882293.9437"
+    },
+    "ETHCZK": {
+      "buy_rate": "82734.7912",
+      "sell_rate": "87020.3449"
+    },
+    "ETH/CZK": {
+      "buy_rate": "82734.7912",
+      "sell_rate": "87020.3449"
+    },
+    "ETHDAI": {
+      "buy_rate": "3846.2622",
+      "sell_rate": "3978.7368"
+    },
+    "ETH/DAI": {
+      "buy_rate": "3846.2622",
+      "sell_rate": "3978.7368"
+    },
+    "ETHTRY": {
+      "buy_rate": "34656.9764",
+      "sell_rate": "36452.1622"
+    },
+    "ETH/TRY": {
+      "buy_rate": "34656.9764",
+      "sell_rate": "36452.1622"
+    },
+    "EURCNY": {
+      "buy_rate": "7.5667",
+      "sell_rate": "7.3799"
+    },
+    "EUR/CNY": {
+      "buy_rate": "7.5667",
+      "sell_rate": "7.3799"
+    },
+    "EURUAH": {
+      "buy_rate": "31.0084",
+      "sell_rate": "30.2427"
+    },
+    "EUR/UAH": {
+      "buy_rate": "31.0084",
+      "sell_rate": "30.2427"
+    },
+    "LTCBTC": {
+      "buy_rate": "0.00323044",
+      "sell_rate": "0.00321318"
+    },
+    "LTC/BTC": {
+      "buy_rate": "0.00323044",
+      "sell_rate": "0.00321318"
+    },
+    "USDCDKK": {
+      "buy_rate": "6.854",
+      "sell_rate": "6.563"
+    },
+    "USDC/DKK": {
+      "buy_rate": "6.854",
+      "sell_rate": "6.563"
+    },
+    "USDCHKD": {
+      "buy_rate": "8.3191",
+      "sell_rate": "7.9658"
+    },
+    "USDC/HKD": {
+      "buy_rate": "8.3191",
+      "sell_rate": "7.9658"
+    },
+    "USDCIDR": {
+      "buy_rate": "15081.015",
+      "sell_rate": "14440.643"
+    },
+    "USDC/IDR": {
+      "buy_rate": "15081.015",
+      "sell_rate": "14440.643"
+    },
+    "USDCINR": {
+      "buy_rate": "80.4997",
+      "sell_rate": "77.0815"
+    },
+    "USDC/INR": {
+      "buy_rate": "80.4997",
+      "sell_rate": "77.0815"
+    },
+    "BCHCZK": {
+      "buy_rate": "14232.0017",
+      "sell_rate": "14107.0226"
+    },
+    "BCH/CZK": {
+      "buy_rate": "14232.0017",
+      "sell_rate": "14107.0226"
+    },
+    "BCHEUR": {
+      "buy_rate": "560.5062",
+      "sell_rate": "555.5841"
+    },
+    "BCH/EUR": {
+      "buy_rate": "560.5062",
+      "sell_rate": "555.5841"
+    },
+    "USDCMYR": {
+      "buy_rate": "4.4428",
+      "sell_rate": "4.2542"
+    },
+    "USDC/MYR": {
+      "buy_rate": "4.4428",
+      "sell_rate": "4.2542"
+    },
+    "BCHHUF": {
+      "buy_rate": "201237.2087",
+      "sell_rate": "199470.0345"
+    },
+    "BCH/HUF": {
+      "buy_rate": "201237.2087",
+      "sell_rate": "199470.0345"
+    },
+    "BCHUSDC": {
+      "buy_rate": "625.6097",
+      "sell_rate": "647.1527"
+    },
+    "BCH/USDC": {
+      "buy_rate": "625.6097",
+      "sell_rate": "647.1527"
+    },
+    "BTCDKK": {
+      "buy_rate": "377230.8738",
+      "sell_rate": "395630.5521"
+    },
+    "BTC/DKK": {
+      "buy_rate": "377230.8738",
+      "sell_rate": "395630.5521"
+    },
+    "BTCPEN": {
+      "buy_rate": "237044.8709",
+      "sell_rate": "248606.8868"
+    },
+    "BTC/PEN": {
+      "buy_rate": "237044.8709",
+      "sell_rate": "248606.8868"
+    },
+    "BTCTWD": {
+      "buy_rate": "1652535.5356",
+      "sell_rate": "1733139.0179"
+    },
+    "BTC/TWD": {
+      "buy_rate": "1652535.5356",
+      "sell_rate": "1733139.0179"
+    },
+    "BTCUSDC": {
+      "buy_rate": "59652.6556",
+      "sell_rate": "59551.3972"
+    },
+    "BTC/USDC": {
+      "buy_rate": "59652.6556",
+      "sell_rate": "59551.3972"
+    },
+    "DAIAUD": {
+      "buy_rate": "1.241",
+      "sell_rate": "1.3831"
+    },
+    "DAI/AUD": {
+      "buy_rate": "1.241",
+      "sell_rate": "1.3831"
+    },
+    "DAIBRL": {
+      "buy_rate": "5.9028",
+      "sell_rate": "5.6527"
+    },
+    "DAI/BRL": {
+      "buy_rate": "5.9028",
+      "sell_rate": "5.6527"
+    },
+    "DAICAD": {
+      "buy_rate": "1.3259",
+      "sell_rate": "1.2697"
+    },
+    "DAI/CAD": {
+      "buy_rate": "1.3259",
+      "sell_rate": "1.2697"
+    },
+    "DAICHF": {
+      "buy_rate": "0.9853",
+      "sell_rate": "0.9435"
+    },
+    "DAI/CHF": {
+      "buy_rate": "0.9853",
+      "sell_rate": "0.9435"
+    },
+    "DAICNY": {
+      "buy_rate": "6.8907",
+      "sell_rate": "6.5987"
+    },
+    "DAI/CNY": {
+      "buy_rate": "6.8907",
+      "sell_rate": "6.5987"
+    },
+    "DAICOP": {
+      "buy_rate": "4003.9077",
+      "sell_rate": "3834.2407"
+    },
+    "DAI/COP": {
+      "buy_rate": "4003.9077",
+      "sell_rate": "3834.2407"
+    },
+    "DAIDKK": {
+      "buy_rate": "6.8606",
+      "sell_rate": "6.5698"
+    },
+    "DAI/DKK": {
+      "buy_rate": "6.8606",
+      "sell_rate": "6.5698"
+    },
+    "ETHTWD": {
+      "buy_rate": "106207.163",
+      "sell_rate": "111708.5547"
+    },
+    "ETH/TWD": {
+      "buy_rate": "106207.163",
+      "sell_rate": "111708.5547"
+    },
+    "ETHVND": {
+      "buy_rate": "86089148.4128",
+      "sell_rate": "90548453.3715"
+    },
+    "ETH/VND": {
+      "buy_rate": "86089148.4128",
+      "sell_rate": "90548453.3715"
+    },
+    "EURMYR": {
+      "buy_rate": "4.8834",
+      "sell_rate": "4.7628"
+    },
+    "EUR/MYR": {
+      "buy_rate": "4.8834",
+      "sell_rate": "4.7628"
+    },
+    "EURRUB": {
+      "buy_rate": "84.251",
+      "sell_rate": "82.1707"
+    },
+    "EUR/RUB": {
+      "buy_rate": "84.251",
+      "sell_rate": "82.1707"
+    },
+    "LTCDKK": {
+      "buy_rate": "1245.2628",
+      "sell_rate": "1238.6899"
+    },
+    "LTC/DKK": {
+      "buy_rate": "1245.2628",
+      "sell_rate": "1238.6899"
+    },
+    "USDCAUD": {
+      "buy_rate": "1.2387",
+      "sell_rate": "1.3816"
+    },
+    "USDC/AUD": {
+      "buy_rate": "1.2387",
+      "sell_rate": "1.3816"
+    },
+    "USDCCNY": {
+      "buy_rate": "6.8841",
+      "sell_rate": "6.5918"
+    },
+    "USDC/CNY": {
+      "buy_rate": "6.8841",
+      "sell_rate": "6.5918"
+    },
+    "USDCCOP": {
+      "buy_rate": "4000.0768",
+      "sell_rate": "3830.2251"
+    },
+    "USDC/COP": {
+      "buy_rate": "4000.0768",
+      "sell_rate": "3830.2251"
+    },
+    "USDCCZK": {
+      "buy_rate": "23.3894",
+      "sell_rate": "22.3963"
+    },
+    "USDC/CZK": {
+      "buy_rate": "23.3894",
+      "sell_rate": "22.3963"
+    },
+    "USDCBRL": {
+      "buy_rate": "5.8972",
+      "sell_rate": "5.6468"
+    },
+    "USDC/BRL": {
+      "buy_rate": "5.8972",
+      "sell_rate": "5.6468"
+    },
+    "USDCEUR": {
+      "buy_rate": "0.8852",
+      "sell_rate": "0.9159"
+    },
+    "USDC/EUR": {
+      "buy_rate": "0.8852",
+      "sell_rate": "0.9159"
+    },
+    "BCHBTC": {
+      "buy_rate": "0.01078093",
+      "sell_rate": "0.01073127"
+    },
+    "BCH/BTC": {
+      "buy_rate": "0.01078093",
+      "sell_rate": "0.01073127"
+    },
+    "BCHIDR": {
+      "buy_rate": "9176504.9543",
+      "sell_rate": "9095921.0365"
+    },
+    "BCH/IDR": {
+      "buy_rate": "9176504.9543",
+      "sell_rate": "9095921.0365"
+    },
+    "BCHKRW": {
+      "buy_rate": "771534.2551",
+      "sell_rate": "764758.99"
+    },
+    "BCH/KRW": {
+      "buy_rate": "771534.2551",
+      "sell_rate": "764758.99"
+    },
+    "USDCJPY": {
+      "buy_rate": "121.3027",
+      "sell_rate": "116.1519"
+    },
+    "USDC/JPY": {
+      "buy_rate": "121.3027",
+      "sell_rate": "116.1519"
+    },
+    "BCHKZT": {
+      "buy_rate": "277207.2394",
+      "sell_rate": "274772.9308"
+    },
+    "BCH/KZT": {
+      "buy_rate": "277207.2394",
+      "sell_rate": "274772.9308"
+    },
+    "USDCNZD": {
+      "buy_rate": "1.5216",
+      "sell_rate": "1.457"
+    },
+    "USDC/NZD": {
+      "buy_rate": "1.5216",
+      "sell_rate": "1.457"
+    },
+    "BCHMXN": {
+      "buy_rate": "13371.2015",
+      "sell_rate": "13253.7817"
+    },
+    "BCH/MXN": {
+      "buy_rate": "13371.2015",
+      "sell_rate": "13253.7817"
+    },
+    "BCHNZD": {
+      "buy_rate": "925.8368",
+      "sell_rate": "917.7066"
+    },
+    "BCH/NZD": {
+      "buy_rate": "925.8368",
+      "sell_rate": "917.7066"
+    },
+    "BCHPEN": {
+      "buy_rate": "2620.6642",
+      "sell_rate": "2597.6507"
+    },
+    "BCH/PEN": {
+      "buy_rate": "2620.6642",
+      "sell_rate": "2597.6507"
+    },
+    "BCHTHB": {
+      "buy_rate": "21618.9562",
+      "sell_rate": "21429.1084"
+    },
+    "BCH/THB": {
+      "buy_rate": "21618.9562",
+      "sell_rate": "21429.1084"
+    },
+    "BTCUAH": {
+      "buy_rate": "1552684.918",
+      "sell_rate": "1628418.1222"
+    },
+    "BTC/UAH": {
+      "buy_rate": "1552684.918",
+      "sell_rate": "1628418.1222"
+    },
+    "DAIGBP": {
+      "buy_rate": "0.7031",
+      "sell_rate": "0.7759"
+    },
+    "DAI/GBP": {
+      "buy_rate": "0.7031",
+      "sell_rate": "0.7759"
+    },
+    "DAIJPY": {
+      "buy_rate": "121.4188",
+      "sell_rate": "116.2736"
+    },
+    "DAI/JPY": {
+      "buy_rate": "121.4188",
+      "sell_rate": "116.2736"
+    },
+    "DAITRY": {
+      "buy_rate": "9.8071",
+      "sell_rate": "9.3915"
+    },
+    "DAI/TRY": {
+      "buy_rate": "9.8071",
+      "sell_rate": "9.3915"
+    },
+    "DAIUAH": {
+      "buy_rate": "28.238",
+      "sell_rate": "27.0414"
+    },
+    "DAI/UAH": {
+      "buy_rate": "28.238",
+      "sell_rate": "27.0414"
+    },
+    "DAIUSDT": {
+      "buy_rate": "1.0298",
+      "sell_rate": "1.0256"
+    },
+    "DAI/USDT": {
+      "buy_rate": "1.0298",
+      "sell_rate": "1.0256"
+    },
+    "DAIZAR": {
+      "buy_rate": "15.8259",
+      "sell_rate": "15.1553"
+    },
+    "DAI/ZAR": {
+      "buy_rate": "15.8259",
+      "sell_rate": "15.1553"
+    },
+    "ETHEUR": {
+      "buy_rate": "3258.3866",
+      "sell_rate": "3427.1669"
+    },
+    "ETH/EUR": {
+      "buy_rate": "3258.3866",
+      "sell_rate": "3427.1669"
+    },
+    "ETHKZT": {
+      "buy_rate": "1611486.8148",
+      "sell_rate": "1694959.7178"
+    },
+    "ETH/KZT": {
+      "buy_rate": "1611486.8148",
+      "sell_rate": "1694959.7178"
+    },
+    "ETHPEN": {
+      "buy_rate": "15234.688",
+      "sell_rate": "16023.8248"
+    },
+    "ETH/PEN": {
+      "buy_rate": "15234.688",
+      "sell_rate": "16023.8248"
+    },
+    "ETHUSDT": {
+      "buy_rate": "3842.5358",
+      "sell_rate": "3988.0387"
+    },
+    "ETH/USDT": {
+      "buy_rate": "3842.5358",
+      "sell_rate": "3988.0387"
+    },
+    "ETHXRP": {
+      "buy_rate": "3187.279125",
+      "sell_rate": "3311.6094925"
+    },
+    "ETH/XRP": {
+      "buy_rate": "3187.279125",
+      "sell_rate": "3311.6094925"
+    },
+    "LTCCZK": {
+      "buy_rate": "4249.511",
+      "sell_rate": "4227.081"
+    },
+    "LTC/CZK": {
+      "buy_rate": "4249.511",
+      "sell_rate": "4227.081"
+    },
+    "LTCPLN": {
+      "buy_rate": "764.9578",
+      "sell_rate": "760.9201"
+    },
+    "LTC/PLN": {
+      "buy_rate": "764.9578",
+      "sell_rate": "760.9201"
+    },
+    "LTCUSD": {
+      "buy_rate": "194.3158",
+      "sell_rate": "201.2196"
+    },
+    "LTC/USD": {
+      "buy_rate": "194.3158",
+      "sell_rate": "201.2196"
+    },
+    "USDMYR": {
+      "buy_rate": "4.206",
+      "sell_rate": "4.1021"
+    },
+    "USD/MYR": {
+      "buy_rate": "4.206",
+      "sell_rate": "4.1021"
+    },
+    "USDUAH": {
+      "buy_rate": "26.707",
+      "sell_rate": "26.0475"
+    },
+    "USD/UAH": {
+      "buy_rate": "26.707",
+      "sell_rate": "26.0475"
+    },
+    "BCHINR": {
+      "buy_rate": "48982.4886",
+      "sell_rate": "48552.3466"
+    },
+    "BCH/INR": {
+      "buy_rate": "48982.4886",
+      "sell_rate": "48552.3466"
+    },
+    "BCHLTC": {
+      "buy_rate": "3.31327463",
+      "sell_rate": "3.3611735"
+    },
+    "BCH/LTC": {
+      "buy_rate": "3.31327463",
+      "sell_rate": "3.3611735"
+    },
+    "USDPEN": {
+      "buy_rate": "4.0773",
+      "sell_rate": "3.9767"
+    },
+    "USD/PEN": {
+      "buy_rate": "4.0773",
+      "sell_rate": "3.9767"
+    },
+    "USDZAR": {
+      "buy_rate": "14.968",
+      "sell_rate": "14.5984"
+    },
+    "USD/ZAR": {
+      "buy_rate": "14.968",
+      "sell_rate": "14.5984"
+    },
+    "USDCCAD": {
+      "buy_rate": "1.3246",
+      "sell_rate": "1.2683"
+    },
+    "USDC/CAD": {
+      "buy_rate": "1.3246",
+      "sell_rate": "1.2683"
+    },
+    "BCHPLN": {
+      "buy_rate": "2561.9136",
+      "sell_rate": "2539.416"
+    },
+    "BCH/PLN": {
+      "buy_rate": "2561.9136",
+      "sell_rate": "2539.416"
+    },
+    "BCHTRY": {
+      "buy_rate": "5961.6775",
+      "sell_rate": "5909.3248"
+    },
+    "BCH/TRY": {
+      "buy_rate": "5961.6775",
+      "sell_rate": "5909.3248"
+    },
+    "USDCGBP": {
+      "buy_rate": "0.7804",
+      "sell_rate": "0.7755"
+    },
+    "USDC/GBP": {
+      "buy_rate": "0.7804",
+      "sell_rate": "0.7755"
+    },
+    "BCHUSDT": {
+      "buy_rate": "627.3516",
+      "sell_rate": "646.3359"
+    },
+    "BCH/USDT": {
+      "buy_rate": "627.3516",
+      "sell_rate": "646.3359"
+    },
+    "BCHXRP": {
+      "buy_rate": "526.393485",
+      "sell_rate": "537.1235675"
+    },
+    "BCH/XRP": {
+      "buy_rate": "526.393485",
+      "sell_rate": "537.1235675"
+    },
+    "BTCCZK": {
+      "buy_rate": "1287316.0217",
+      "sell_rate": "1350105.6876"
+    },
+    "BTC/CZK": {
+      "buy_rate": "1287316.0217",
+      "sell_rate": "1350105.6876"
+    },
+    "BTCRUB": {
+      "buy_rate": "4218708.9534",
+      "sell_rate": "4424479.1926"
+    },
+    "BTC/RUB": {
+      "buy_rate": "4218708.9534",
+      "sell_rate": "4424479.1926"
+    },
+    "BTCUSDT": {
+      "buy_rate": "59031.3605",
+      "sell_rate": "61791.6196"
+    },
+    "BTC/USDT": {
+      "buy_rate": "59031.3605",
+      "sell_rate": "61791.6196"
+    },
+    "DAIEUR": {
+      "buy_rate": "0.8883",
+      "sell_rate": "0.9164"
+    },
+    "DAI/EUR": {
+      "buy_rate": "0.8883",
+      "sell_rate": "0.9164"
+    },
+    "DAIINR": {
+      "buy_rate": "80.5767",
+      "sell_rate": "77.1623"
+    },
+    "DAI/INR": {
+      "buy_rate": "80.5767",
+      "sell_rate": "77.1623"
+    },
+    "DAIMYR": {
+      "buy_rate": "4.4471",
+      "sell_rate": "4.2586"
+    },
+    "DAI/MYR": {
+      "buy_rate": "4.4471",
+      "sell_rate": "4.2586"
+    },
+    "DAIRUB": {
+      "buy_rate": "76.7237",
+      "sell_rate": "73.4725"
+    },
+    "DAI/RUB": {
+      "buy_rate": "76.7237",
+      "sell_rate": "73.4725"
+    },
+    "DAITWD": {
+      "buy_rate": "30.0539",
+      "sell_rate": "28.7803"
+    },
+    "DAI/TWD": {
+      "buy_rate": "30.0539",
+      "sell_rate": "28.7803"
+    },
+    "ETHGBP": {
+      "buy_rate": "2729.9899",
+      "sell_rate": "2896.7764"
+    },
+    "ETH/GBP": {
+      "buy_rate": "2729.9899",
+      "sell_rate": "2896.7764"
+    },
+    "ETHJPY": {
+      "buy_rate": "429080.9802",
+      "sell_rate": "451306.8121"
+    },
+    "ETH/JPY": {
+      "buy_rate": "429080.9802",
+      "sell_rate": "451306.8121"
+    },
+    "ETHMYR": {
+      "buy_rate": "15715.3391",
+      "sell_rate": "16529.3731"
+    },
+    "ETH/MYR": {
+      "buy_rate": "15715.3391",
+      "sell_rate": "16529.3731"
+    },
+    "ETHSEK": {
+      "buy_rate": "32599.833",
+      "sell_rate": "34288.4616"
+    },
+    "ETH/SEK": {
+      "buy_rate": "32599.833",
+      "sell_rate": "34288.4616"
+    },
+    "ETHUAH": {
+      "buy_rate": "99789.8421",
+      "sell_rate": "104958.825"
+    },
+    "ETH/UAH": {
+      "buy_rate": "99789.8421",
+      "sell_rate": "104958.825"
+    },
+    "ETHZAR": {
+      "buy_rate": "55927.2782",
+      "sell_rate": "58824.2378"
+    },
+    "ETH/ZAR": {
+      "buy_rate": "55927.2782",
+      "sell_rate": "58824.2378"
+    },
+    "EURAUD": {
+      "buy_rate": "1.5021",
+      "sell_rate": "1.5468"
+    },
+    "EUR/AUD": {
+      "buy_rate": "1.5021",
+      "sell_rate": "1.5468"
+    },
+    "LTCHKD": {
+      "buy_rate": "1511.4465",
+      "sell_rate": "1503.4686"
+    },
+    "LTC/HKD": {
+      "buy_rate": "1511.4465",
+      "sell_rate": "1503.4686"
+    },
+    "LTCZAR": {
+      "buy_rate": "2872.5955",
+      "sell_rate": "2857.4331"
+    },
+    "LTC/ZAR": {
+      "buy_rate": "2872.5955",
+      "sell_rate": "2857.4331"
+    },
+    "USDBRL": {
+      "buy_rate": "5.5828",
+      "sell_rate": "5.4449"
+    },
+    "USD/BRL": {
+      "buy_rate": "5.5828",
+      "sell_rate": "5.4449"
+    },
+    "USDJPY": {
+      "buy_rate": "114.8357",
+      "sell_rate": "112.0002"
+    },
+    "USD/JPY": {
+      "buy_rate": "114.8357",
+      "sell_rate": "112.0002"
+    },
+    "USDCCHF": {
+      "buy_rate": "0.9843",
+      "sell_rate": "0.9425"
+    },
+    "USDC/CHF": {
+      "buy_rate": "0.9843",
+      "sell_rate": "0.9425"
+    },
+    "USDCHUF": {
+      "buy_rate": "330.7208",
+      "sell_rate": "316.6778"
+    },
+    "USDC/HUF": {
+      "buy_rate": "330.7208",
+      "sell_rate": "316.6778"
+    },
+    "USDCKZT": {
+      "buy_rate": "455.5728",
+      "sell_rate": "436.2283"
+    },
+    "USDC/KZT": {
+      "buy_rate": "455.5728",
+      "sell_rate": "436.2283"
+    },
+    "BCHRUB": {
+      "buy_rate": "46640.1971",
+      "sell_rate": "46230.624"
+    },
+    "BCH/RUB": {
+      "buy_rate": "46640.1971",
+      "sell_rate": "46230.624"
+    },
+    "BCHTWD": {
+      "buy_rate": "18269.7086",
+      "sell_rate": "18109.2723"
+    },
+    "BCH/TWD": {
+      "buy_rate": "18269.7086",
+      "sell_rate": "18109.2723"
+    },
+    "BTCEUR": {
+      "buy_rate": "50699.0267",
+      "sell_rate": "53171.9043"
+    },
+    "BTC/EUR": {
+      "buy_rate": "50699.0267",
+      "sell_rate": "53171.9043"
+    },
+    "BTCINR": {
+      "buy_rate": "4430574.4063",
+      "sell_rate": "4646678.519"
+    },
+    "BTC/INR": {
+      "buy_rate": "4430574.4063",
+      "sell_rate": "4646678.519"
+    },
+    "BTCKRW": {
+      "buy_rate": "69786979.3131",
+      "sell_rate": "73190884.0572"
+    },
+    "BTC/KRW": {
+      "buy_rate": "69786979.3131",
+      "sell_rate": "73190884.0572"
+    },
+    "USDCNOK": {
+      "buy_rate": "9.0223",
+      "sell_rate": "8.6392"
+    },
+    "USDC/NOK": {
+      "buy_rate": "9.0223",
+      "sell_rate": "8.6392"
+    },
+    "USDCRUB": {
+      "buy_rate": "76.6502",
+      "sell_rate": "73.3955"
+    },
+    "USDC/RUB": {
+      "buy_rate": "76.6502",
+      "sell_rate": "73.3955"
+    },
+    "BTCMXN": {
+      "buy_rate": "1209454.7379",
+      "sell_rate": "1268446.6697"
+    },
+    "BTC/MXN": {
+      "buy_rate": "1209454.7379",
+      "sell_rate": "1268446.6697"
+    },
+    "BTCMYR": {
+      "buy_rate": "244523.5859",
+      "sell_rate": "256450.3808"
+    },
+    "BTC/MYR": {
+      "buy_rate": "244523.5859",
+      "sell_rate": "256450.3808"
+    },
+    "BTCSEK": {
+      "buy_rate": "507238.6922",
+      "sell_rate": "531979.5852"
+    },
+    "BTC/SEK": {
+      "buy_rate": "507238.6922",
+      "sell_rate": "531979.5852"
+    },
+    "DAIMXN": {
+      "buy_rate": "21.9958",
+      "sell_rate": "21.0637"
+    },
+    "DAI/MXN": {
+      "buy_rate": "21.9958",
+      "sell_rate": "21.0637"
+    },
+    "DAIPLN": {
+      "buy_rate": "4.2144",
+      "sell_rate": "4.0358"
+    },
+    "DAI/PLN": {
+      "buy_rate": "4.2144",
+      "sell_rate": "4.0358"
+    },
+    "DAIUSD": {
+      "buy_rate": "1.0705",
+      "sell_rate": "1.0646"
+    },
+    "DAI/USD": {
+      "buy_rate": "1.0705",
+      "sell_rate": "1.0646"
+    },
+    "ETHBRL": {
+      "buy_rate": "20859.7093",
+      "sell_rate": "21940.2149"
+    },
+    "ETH/BRL": {
+      "buy_rate": "20859.7093",
+      "sell_rate": "21940.2149"
+    },
+    "ETHBTC": {
+      "buy_rate": "0.06525917",
+      "sell_rate": "0.06621445"
+    },
+    "ETH/BTC": {
+      "buy_rate": "0.06525917",
+      "sell_rate": "0.06621445"
+    },
+    "ETHCAD": {
+      "buy_rate": "4685.2538",
+      "sell_rate": "4927.9438"
+    },
+    "ETH/CAD": {
+      "buy_rate": "4685.2538",
+      "sell_rate": "4927.9438"
+    },
+    "ETHUSDC": {
+      "buy_rate": "3848.2113",
+      "sell_rate": "3993.0789"
+    },
+    "ETH/USDC": {
+      "buy_rate": "3848.2113",
+      "sell_rate": "3993.0789"
+    },
+    "EURCAD": {
+      "buy_rate": "1.4559",
+      "sell_rate": "1.42"
+    },
+    "EUR/CAD": {
+      "buy_rate": "1.4559",
+      "sell_rate": "1.42"
+    },
+    "EURCHF": {
+      "buy_rate": "1.0819",
+      "sell_rate": "1.0552"
+    },
+    "EUR/CHF": {
+      "buy_rate": "1.0819",
+      "sell_rate": "1.0552"
+    },
+    "EURCOP": {
+      "buy_rate": "4396.7286",
+      "sell_rate": "4288.1674"
+    },
+    "EUR/COP": {
+      "buy_rate": "4396.7286",
+      "sell_rate": "4288.1674"
+    },
+    "EURIDR": {
+      "buy_rate": "16576.4643",
+      "sell_rate": "16167.1688"
+    },
+    "EUR/IDR": {
+      "buy_rate": "16576.4643",
+      "sell_rate": "16167.1688"
+    },
+    "EURPLN": {
+      "buy_rate": "4.6279",
+      "sell_rate": "4.5136"
+    },
+    "EUR/PLN": {
+      "buy_rate": "4.6279",
+      "sell_rate": "4.5136"
+    },
+    "EURSEK": {
+      "buy_rate": "10.13",
+      "sell_rate": "9.8799"
+    },
+    "EUR/SEK": {
+      "buy_rate": "10.13",
+      "sell_rate": "9.8799"
+    },
+    "EURZAR": {
+      "buy_rate": "17.3787",
+      "sell_rate": "16.9496"
+    },
+    "EUR/ZAR": {
+      "buy_rate": "17.3787",
+      "sell_rate": "16.9496"
+    },
+    "USDCZK": {
+      "buy_rate": "22.1424",
+      "sell_rate": "21.5957"
+    },
+    "USD/CZK": {
+      "buy_rate": "22.1424",
+      "sell_rate": "21.5957"
+    },
+    "USDDKK": {
+      "buy_rate": "6.4886",
+      "sell_rate": "6.3284"
+    },
+    "USD/DKK": {
+      "buy_rate": "6.4886",
+      "sell_rate": "6.3284"
+    },
+    "BTCGBP": {
+      "buy_rate": "42936.7209",
+      "sell_rate": "46734.0039"
+    },
+    "BTC/GBP": {
+      "buy_rate": "42936.7209",
+      "sell_rate": "46734.0039"
+    },
+    "XRPZAR": {
+      "buy_rate": "17.976503",
+      "sell_rate": "17.745474"
+    },
+    "XRP/ZAR": {
+      "buy_rate": "17.976503",
+      "sell_rate": "17.745474"
+    },
+    "BTCJPY": {
+      "buy_rate": "6676306.4511",
+      "sell_rate": "7001947.5868"
+    },
+    "BTC/JPY": {
+      "buy_rate": "6676306.4511",
+      "sell_rate": "7001947.5868"
+    },
+    "BTCNOK": {
+      "buy_rate": "496571.0086",
+      "sell_rate": "520791.5785"
+    },
+    "BTC/NOK": {
+      "buy_rate": "496571.0086",
+      "sell_rate": "520791.5785"
+    },
+    "BTCZAR": {
+      "buy_rate": "870203.2148",
+      "sell_rate": "912647.9356"
+    },
+    "BTC/ZAR": {
+      "buy_rate": "870203.2148",
+      "sell_rate": "912647.9356"
+    },
+    "DAIHKD": {
+      "buy_rate": "8.3271",
+      "sell_rate": "7.9742"
+    },
+    "DAI/HKD": {
+      "buy_rate": "8.3271",
+      "sell_rate": "7.9742"
+    },
+    "DAINOK": {
+      "buy_rate": "9.031",
+      "sell_rate": "8.6483"
+    },
+    "DAI/NOK": {
+      "buy_rate": "9.031",
+      "sell_rate": "8.6483"
+    },
+    "DAISEK": {
+      "buy_rate": "9.225",
+      "sell_rate": "8.834"
+    },
+    "DAI/SEK": {
+      "buy_rate": "9.225",
+      "sell_rate": "8.834"
+    },
+    "ETHAUD": {
+      "buy_rate": "4810.778",
+      "sell_rate": "5368.0434"
+    },
+    "ETH/AUD": {
+      "buy_rate": "4810.778",
+      "sell_rate": "5368.0434"
+    },
+    "ETHDKK": {
+      "buy_rate": "24244.3324",
+      "sell_rate": "25500.1571"
+    },
+    "ETH/DKK": {
+      "buy_rate": "24244.3324",
+      "sell_rate": "25500.1571"
+    },
+    "ETHHUF": {
+      "buy_rate": "1169850.7917",
+      "sell_rate": "1230447.5282"
+    },
+    "ETH/HUF": {
+      "buy_rate": "1169850.7917",
+      "sell_rate": "1230447.5282"
+    },
+    "ETHNZD": {
+      "buy_rate": "5382.1608",
+      "sell_rate": "5660.9497"
+    },
+    "ETH/NZD": {
+      "buy_rate": "5382.1608",
+      "sell_rate": "5660.9497"
+    },
+    "ETHPLN": {
+      "buy_rate": "14893.1536",
+      "sell_rate": "15664.5995"
+    },
+    "ETH/PLN": {
+      "buy_rate": "14893.1536",
+      "sell_rate": "15664.5995"
+    },
+    "ETHRUB": {
+      "buy_rate": "271133.1162",
+      "sell_rate": "285177.4559"
+    },
+    "ETH/RUB": {
+      "buy_rate": "271133.1162",
+      "sell_rate": "285177.4559"
+    },
+    "ETHTHB": {
+      "buy_rate": "125677.3203",
+      "sell_rate": "132187.2406"
+    },
+    "ETH/THB": {
+      "buy_rate": "125677.3203",
+      "sell_rate": "132187.2406"
+    },
+    "LTCEUR": {
+      "buy_rate": "167.3606",
+      "sell_rate": "166.4773"
+    },
+    "LTC/EUR": {
+      "buy_rate": "167.3606",
+      "sell_rate": "166.4773"
+    },
+    "LTCINR": {
+      "buy_rate": "14625.6044",
+      "sell_rate": "14548.4065"
+    },
+    "LTC/INR": {
+      "buy_rate": "14625.6044",
+      "sell_rate": "14548.4065"
+    },
+    "LTCKZT": {
+      "buy_rate": "82770.874",
+      "sell_rate": "82333.9875"
+    },
+    "LTC/KZT": {
+      "buy_rate": "82770.874",
+      "sell_rate": "82333.9875"
+    },
+    "LTCPEN": {
+      "buy_rate": "782.5",
+      "sell_rate": "778.3698"
+    },
+    "LTC/PEN": {
+      "buy_rate": "782.5",
+      "sell_rate": "778.3698"
+    },
+    "LTCRUB": {
+      "buy_rate": "13926.2231",
+      "sell_rate": "13852.7169"
+    },
+    "LTC/RUB": {
+      "buy_rate": "13926.2231",
+      "sell_rate": "13852.7169"
+    },
+    "USDCMXN": {
+      "buy_rate": "21.9747",
+      "sell_rate": "21.0416"
+    },
+    "USDC/MXN": {
+      "buy_rate": "21.9747",
+      "sell_rate": "21.0416"
+    },
+    "USDCPLN": {
+      "buy_rate": "4.2104",
+      "sell_rate": "4.0316"
+    },
+    "USDC/PLN": {
+      "buy_rate": "4.2104",
+      "sell_rate": "4.0316"
+    },
+    "USDCTRY": {
+      "buy_rate": "9.7977",
+      "sell_rate": "9.3817"
+    },
+    "USDC/TRY": {
+      "buy_rate": "9.7977",
+      "sell_rate": "9.3817"
+    },
+    "USDCUSDT": {
+      "buy_rate": "1.0292",
+      "sell_rate": "1.025"
+    },
+    "USDC/USDT": {
+      "buy_rate": "1.0292",
+      "sell_rate": "1.025"
+    },
+    "USDTPEN": {
+      "buy_rate": "4.1513",
+      "sell_rate": "4.1255"
+    },
+    "USDT/PEN": {
+      "buy_rate": "4.1513",
+      "sell_rate": "4.1255"
+    },
+    "XRPDKK": {
+      "buy_rate": "7.792767",
+      "sell_rate": "7.692625"
+    },
+    "XRP/DKK": {
+      "buy_rate": "7.792767",
+      "sell_rate": "7.692625"
+    },
+    "XRPUSDC": {
+      "buy_rate": "1.164503",
+      "sell_rate": "1.219647"
+    },
+    "XRP/USDC": {
+      "buy_rate": "1.164503",
+      "sell_rate": "1.219647"
+    },
+    "XRPCZK": {
+      "buy_rate": "26.59311",
+      "sell_rate": "26.251404"
+    },
+    "XRP/CZK": {
+      "buy_rate": "26.59311",
+      "sell_rate": "26.251404"
+    },
+    "XRPEUR": {
+      "buy_rate": "1.047332",
+      "sell_rate": "1.046992"
+    },
+    "XRP/EUR": {
+      "buy_rate": "1.047332",
+      "sell_rate": "1.046992"
+    },
+    "XRPINR": {
+      "buy_rate": "91.526052",
+      "sell_rate": "90.349832"
+    },
+    "XRP/INR": {
+      "buy_rate": "91.526052",
+      "sell_rate": "90.349832"
+    },
+    "XRPLTC": {
+      "buy_rate": "0.00616713",
+      "sell_rate": "0.00625473"
+    },
+    "XRP/LTC": {
+      "buy_rate": "0.00616713",
+      "sell_rate": "0.00625473"
+    },
+    "BTCHKD": {
+      "buy_rate": "457866.6112",
+      "sell_rate": "480199.3492"
+    },
+    "BTC/HKD": {
+      "buy_rate": "457866.6112",
+      "sell_rate": "480199.3492"
+    },
+    "DAIKRW": {
+      "buy_rate": "1269.1829",
+      "sell_rate": "1215.4008"
+    },
+    "DAI/KRW": {
+      "buy_rate": "1269.1829",
+      "sell_rate": "1215.4008"
+    },
+    "DAINZD": {
+      "buy_rate": "1.5231",
+      "sell_rate": "1.4585"
+    },
+    "DAI/NZD": {
+      "buy_rate": "1.5231",
+      "sell_rate": "1.4585"
+    },
+    "DAITHB": {
+      "buy_rate": "35.5634",
+      "sell_rate": "34.0565"
+    },
+    "DAI/THB": {
+      "buy_rate": "35.5634",
+      "sell_rate": "34.0565"
+    },
+    "ETHIDR": {
+      "buy_rate": "53345709.0463",
+      "sell_rate": "56108946.7976"
+    },
+    "ETH/IDR": {
+      "buy_rate": "53345709.0463",
+      "sell_rate": "56108946.7976"
+    },
+    "ETHINR": {
+      "buy_rate": "284749.5427",
+      "sell_rate": "299499.1955"
+    },
+    "ETH/INR": {
+      "buy_rate": "284749.5427",
+      "sell_rate": "299499.1955"
+    },
+    "ETHMXN": {
+      "buy_rate": "77730.7076",
+      "sell_rate": "81757.0563"
+    },
+    "ETH/MXN": {
+      "buy_rate": "77730.7076",
+      "sell_rate": "81757.0563"
+    },
+    "EURCZK": {
+      "buy_rate": "25.7087",
+      "sell_rate": "25.074"
+    },
+    "EUR/CZK": {
+      "buy_rate": "25.7087",
+      "sell_rate": "25.074"
+    },
+    "EURDKK": {
+      "buy_rate": "7.5336",
+      "sell_rate": "7.3476"
+    },
+    "EUR/DKK": {
+      "buy_rate": "7.5336",
+      "sell_rate": "7.3476"
+    },
+    "EURMXN": {
+      "buy_rate": "24.1537",
+      "sell_rate": "23.5574"
+    },
+    "EUR/MXN": {
+      "buy_rate": "24.1537",
+      "sell_rate": "23.5574"
+    },
+    "EURTWD": {
+      "buy_rate": "33.0025",
+      "sell_rate": "32.1876"
+    },
+    "EUR/TWD": {
+      "buy_rate": "33.0025",
+      "sell_rate": "32.1876"
+    },
+    "GBPUSD": {
+      "buy_rate": "1.3625",
+      "sell_rate": "1.3541"
+    },
+    "GBP/USD": {
+      "buy_rate": "1.3625",
+      "sell_rate": "1.3541"
+    },
+    "LTCCHF": {
+      "buy_rate": "178.8302",
+      "sell_rate": "177.8863"
+    },
+    "LTC/CHF": {
+      "buy_rate": "178.8302",
+      "sell_rate": "177.8863"
+    },
+    "LTCKRW": {
+      "buy_rate": "230371.2007",
+      "sell_rate": "229155.2408"
+    },
+    "LTC/KRW": {
+      "buy_rate": "230371.2007",
+      "sell_rate": "229155.2408"
+    },
+    "USDHUF": {
+      "buy_rate": "313.0892",
+      "sell_rate": "305.3587"
+    },
+    "USD/HUF": {
+      "buy_rate": "313.0892",
+      "sell_rate": "305.3587"
+    },
+    "USDPLN": {
+      "buy_rate": "3.9859",
+      "sell_rate": "3.8875"
+    },
+    "USD/PLN": {
+      "buy_rate": "3.9859",
+      "sell_rate": "3.8875"
+    },
+    "USDCSEK": {
+      "buy_rate": "9.2161",
+      "sell_rate": "8.8248"
+    },
+    "USDC/SEK": {
+      "buy_rate": "9.2161",
+      "sell_rate": "8.8248"
+    },
+    "USDCUAH": {
+      "buy_rate": "28.2109",
+      "sell_rate": "27.013"
+    },
+    "USDC/UAH": {
+      "buy_rate": "28.2109",
+      "sell_rate": "27.013"
+    },
+    "USDCZAR": {
+      "buy_rate": "15.8108",
+      "sell_rate": "15.1395"
+    },
+    "USDC/ZAR": {
+      "buy_rate": "15.8108",
+      "sell_rate": "15.1395"
+    },
+    "USDTAUD": {
+      "buy_rate": "1.2403",
+      "sell_rate": "1.3821"
+    },
+    "USDT/AUD": {
+      "buy_rate": "1.2403",
+      "sell_rate": "1.3821"
+    },
+    "USDTINR": {
+      "buy_rate": "77.5901",
+      "sell_rate": "77.1087"
+    },
+    "USDT/INR": {
+      "buy_rate": "77.5901",
+      "sell_rate": "77.1087"
+    },
+    "USDTKRW": {
+      "buy_rate": "1222.1385",
+      "sell_rate": "1214.5566"
+    },
+    "USDT/KRW": {
+      "buy_rate": "1222.1385",
+      "sell_rate": "1214.5566"
+    },
+    "USDTSEK": {
+      "buy_rate": "8.883",
+      "sell_rate": "8.8279"
+    },
+    "USDT/SEK": {
+      "buy_rate": "8.883",
+      "sell_rate": "8.8279"
+    },
+    "USDTTWD": {
+      "buy_rate": "28.9399",
+      "sell_rate": "28.7604"
+    },
+    "USDT/TWD": {
+      "buy_rate": "28.9399",
+      "sell_rate": "28.7604"
+    },
+    "USDTZAR": {
+      "buy_rate": "15.2394",
+      "sell_rate": "15.1448"
+    },
+    "USDT/ZAR": {
+      "buy_rate": "15.2394",
+      "sell_rate": "15.1448"
+    },
+    "DAICZK": {
+      "buy_rate": "23.4118",
+      "sell_rate": "22.4198"
+    },
+    "DAI/CZK": {
+      "buy_rate": "23.4118",
+      "sell_rate": "22.4198"
+    },
+    "DAIKZT": {
+      "buy_rate": "456.0092",
+      "sell_rate": "436.6856"
+    },
+    "DAI/KZT": {
+      "buy_rate": "456.0092",
+      "sell_rate": "436.6856"
+    },
+    "DAIPEN": {
+      "buy_rate": "4.3111",
+      "sell_rate": "4.1284"
+    },
+    "DAI/PEN": {
+      "buy_rate": "4.3111",
+      "sell_rate": "4.1284"
+    },
+    "ETHKRW": {
+      "buy_rate": "4485154.4346",
+      "sell_rate": "4717479.5508"
+    },
+    "ETH/KRW": {
+      "buy_rate": "4485154.4346",
+      "sell_rate": "4717479.5508"
+    },
+    "ETHLTC": {
+      "buy_rate": "20.05590375",
+      "sell_rate": "20.73364875"
+    },
+    "ETH/LTC": {
+      "buy_rate": "20.05590375",
+      "sell_rate": "20.73364875"
+    },
+    "EURBRL": {
+      "buy_rate": "6.4819",
+      "sell_rate": "6.3219"
+    },
+    "EUR/BRL": {
+      "buy_rate": "6.4819",
+      "sell_rate": "6.3219"
+    },
+    "EURHKD": {
+      "buy_rate": "9.144",
+      "sell_rate": "8.9182"
+    },
+    "EUR/HKD": {
+      "buy_rate": "9.144",
+      "sell_rate": "8.9182"
+    },
+    "EURHUF": {
+      "buy_rate": "363.5155",
+      "sell_rate": "354.5398"
+    },
+    "EUR/HUF": {
+      "buy_rate": "363.5155",
+      "sell_rate": "354.5398"
+    },
+    "EURKRW": {
+      "buy_rate": "1393.7016",
+      "sell_rate": "1359.2893"
+    },
+    "EUR/KRW": {
+      "buy_rate": "1393.7016",
+      "sell_rate": "1359.2893"
+    },
+    "EURNZD": {
+      "buy_rate": "1.6725",
+      "sell_rate": "1.6312"
+    },
+    "EUR/NZD": {
+      "buy_rate": "1.6725",
+      "sell_rate": "1.6312"
+    },
+    "EURPEN": {
+      "buy_rate": "4.734",
+      "sell_rate": "4.6171"
+    },
+    "EUR/PEN": {
+      "buy_rate": "4.734",
+      "sell_rate": "4.6171"
+    },
+    "EURTHB": {
+      "buy_rate": "39.0526",
+      "sell_rate": "38.0883"
+    },
+    "EUR/THB": {
+      "buy_rate": "39.0526",
+      "sell_rate": "38.0883"
+    },
+    "EURVND": {
+      "buy_rate": "26751.0492",
+      "sell_rate": "26090.5295"
+    },
+    "EUR/VND": {
+      "buy_rate": "26751.0492",
+      "sell_rate": "26090.5295"
+    },
+    "LTCBRL": {
+      "buy_rate": "1071.4182",
+      "sell_rate": "1065.763"
+    },
+    "LTC/BRL": {
+      "buy_rate": "1071.4182",
+      "sell_rate": "1065.763"
+    },
+    "LTCMYR": {
+      "buy_rate": "807.1877",
+      "sell_rate": "802.9271"
+    },
+    "LTC/MYR": {
+      "buy_rate": "807.1877",
+      "sell_rate": "802.9271"
+    },
+    "LTCSEK": {
+      "buy_rate": "1674.4268",
+      "sell_rate": "1665.5887"
+    },
+    "LTC/SEK": {
+      "buy_rate": "1674.4268",
+      "sell_rate": "1665.5887"
+    },
+    "LTCUAH": {
+      "buy_rate": "5125.5105",
+      "sell_rate": "5098.4566"
+    },
+    "LTC/UAH": {
+      "buy_rate": "5125.5105",
+      "sell_rate": "5098.4566"
+    },
+    "USDHKD": {
+      "buy_rate": "7.8756",
+      "sell_rate": "7.6811"
+    },
+    "USD/HKD": {
+      "buy_rate": "7.8756",
+      "sell_rate": "7.6811"
+    },
+    "USDINR": {
+      "buy_rate": "76.208",
+      "sell_rate": "74.3263"
+    },
+    "USD/INR": {
+      "buy_rate": "76.208",
+      "sell_rate": "74.3263"
+    },
+    "USDCTHB": {
+      "buy_rate": "35.5294",
+      "sell_rate": "34.0207"
+    },
+    "USDC/THB": {
+      "buy_rate": "35.5294",
+      "sell_rate": "34.0207"
+    },
+    "USDCUSD": {
+      "buy_rate": "1.071",
+      "sell_rate": "1.064"
+    },
+    "USDC/USD": {
+      "buy_rate": "1.071",
+      "sell_rate": "1.064"
+    },
+    "USDTCHF": {
+      "buy_rate": "0.9488",
+      "sell_rate": "0.9429"
+    },
+    "USDT/CHF": {
+      "buy_rate": "0.9488",
+      "sell_rate": "0.9429"
+    },
+    "USDTUAH": {
+      "buy_rate": "27.1912",
+      "sell_rate": "27.0226"
+    },
+    "USDT/UAH": {
+      "buy_rate": "27.1912",
+      "sell_rate": "27.0226"
+    },
+    "XRPAUD": {
+      "buy_rate": "1.553763",
+      "sell_rate": "1.619377"
+    },
+    "XRP/AUD": {
+      "buy_rate": "1.553763",
+      "sell_rate": "1.619377"
+    },
+    "XRPDAI": {
+      "buy_rate": "1.163942",
+      "sell_rate": "1.215266"
+    },
+    "XRP/DAI": {
+      "buy_rate": "1.163942",
+      "sell_rate": "1.215266"
+    },
+    "XRPRUB": {
+      "buy_rate": "87.149318",
+      "sell_rate": "86.02942"
+    },
+    "XRP/RUB": {
+      "buy_rate": "87.149318",
+      "sell_rate": "86.02942"
+    },
+    "BCHCNY": {
+      "buy_rate": "4188.8194",
+      "sell_rate": "4152.035"
+    },
+    "BCH/CNY": {
+      "buy_rate": "4188.8194",
+      "sell_rate": "4152.035"
+    },
+    "BCHHKD": {
+      "buy_rate": "5061.9725",
+      "sell_rate": "5017.5206"
+    },
+    "BCH/HKD": {
+      "buy_rate": "5061.9725",
+      "sell_rate": "5017.5206"
+    },
+    "BCHJPY": {
+      "buy_rate": "73810.3178",
+      "sell_rate": "73162.149"
+    },
+    "BCH/JPY": {
+      "buy_rate": "73810.3178",
+      "sell_rate": "73162.149"
+    },
+    "BCHNOK": {
+      "buy_rate": "5489.8714",
+      "sell_rate": "5441.6619"
+    },
+    "BCH/NOK": {
+      "buy_rate": "5489.8714",
+      "sell_rate": "5441.6619"
+    },
+    "BCHSGD": {
+      "buy_rate": "877.2629",
+      "sell_rate": "869.5592"
+    },
+    "BCH/SGD": {
+      "buy_rate": "877.2629",
+      "sell_rate": "869.5592"
+    },
+    "BCHUSD": {
+      "buy_rate": "650.7814",
+      "sell_rate": "672.0281"
+    },
+    "BCH/USD": {
+      "buy_rate": "650.7814",
+      "sell_rate": "672.0281"
+    },
+    "BTCCNY": {
+      "buy_rate": "378887.9715",
+      "sell_rate": "397368.4757"
+    },
+    "BTC/CNY": {
+      "buy_rate": "378887.9715",
+      "sell_rate": "397368.4757"
+    },
+    "BTCHUF": {
+      "buy_rate": "18202350.4854",
+      "sell_rate": "19090181.8228"
+    },
+    "BTC/HUF": {
+      "buy_rate": "18202350.4854",
+      "sell_rate": "19090181.8228"
+    },
+    "BTCKZT": {
+      "buy_rate": "25074007.7391",
+      "sell_rate": "26297008.573"
+    },
+    "BTC/KZT": {
+      "buy_rate": "25074007.7391",
+      "sell_rate": "26297008.573"
+    },
+    "BTCPLN": {
+      "buy_rate": "231730.7511",
+      "sell_rate": "243033.5674"
+    },
+    "BTC/PLN": {
+      "buy_rate": "231730.7511",
+      "sell_rate": "243033.5674"
+    },
+    "BTCTRY": {
+      "buy_rate": "539246.9143",
+      "sell_rate": "565549.029"
+    },
+    "BTC/TRY": {
+      "buy_rate": "539246.9143",
+      "sell_rate": "565549.029"
+    },
+    "BTCVND": {
+      "buy_rate": "1339508306.1086",
+      "sell_rate": "1404843684.1801"
+    },
+    "BTC/VND": {
+      "buy_rate": "1339508306.1086",
+      "sell_rate": "1404843684.1801"
+    },
+    "DAIIDR": {
+      "buy_rate": "15095.4581",
+      "sell_rate": "14455.7828"
+    },
+    "DAI/IDR": {
+      "buy_rate": "15095.4581",
+      "sell_rate": "14455.7828"
+    },
+    "ETHCHF": {
+      "buy_rate": "3481.6905",
+      "sell_rate": "3662.0374"
+    },
+    "ETH/CHF": {
+      "buy_rate": "3481.6905",
+      "sell_rate": "3662.0374"
+    },
+    "ETHHKD": {
+      "buy_rate": "29426.7281",
+      "sell_rate": "30950.9939"
+    },
+    "ETH/HKD": {
+      "buy_rate": "29426.7281",
+      "sell_rate": "30950.9939"
+    },
+    "USDCTWD": {
+      "buy_rate": "30.0251",
+      "sell_rate": "28.7502"
+    },
+    "USDC/TWD": {
+      "buy_rate": "30.0251",
+      "sell_rate": "28.7502"
+    },
+    "USDCVND": {
+      "buy_rate": "24337.6978",
+      "sell_rate": "23304.2672"
+    },
+    "USDC/VND": {
+      "buy_rate": "24337.6978",
+      "sell_rate": "23304.2672"
+    },
+    "USDTCZK": {
+      "buy_rate": "22.544",
+      "sell_rate": "22.4042"
+    },
+    "USDT/CZK": {
+      "buy_rate": "22.544",
+      "sell_rate": "22.4042"
+    },
+    "USDTDKK": {
+      "buy_rate": "6.6063",
+      "sell_rate": "6.5653"
+    },
+    "USDT/DKK": {
+      "buy_rate": "6.6063",
+      "sell_rate": "6.5653"
+    },
+    "USDTKZT": {
+      "buy_rate": "439.1064",
+      "sell_rate": "436.3823"
+    },
+    "USDT/KZT": {
+      "buy_rate": "439.1064",
+      "sell_rate": "436.3823"
+    },
+    "EURINR": {
+      "buy_rate": "88.4821",
+      "sell_rate": "86.2974"
+    },
+    "EUR/INR": {
+      "buy_rate": "88.4821",
+      "sell_rate": "86.2974"
+    },
+    "EURKZT": {
+      "buy_rate": "500.7479",
+      "sell_rate": "488.3838"
+    },
+    "EUR/KZT": {
+      "buy_rate": "500.7479",
+      "sell_rate": "488.3838"
+    },
+    "LTCAUD": {
+      "buy_rate": "247.5347",
+      "sell_rate": "260.7569"
+    },
+    "LTC/AUD": {
+      "buy_rate": "247.5347",
+      "sell_rate": "260.7569"
+    },
+    "LTCCNY": {
+      "buy_rate": "1250.733",
+      "sell_rate": "1244.1313"
+    },
+    "LTC/CNY": {
+      "buy_rate": "1250.733",
+      "sell_rate": "1244.1313"
+    },
+    "LTCHUF": {
+      "buy_rate": "60087.1019",
+      "sell_rate": "59769.9464"
+    },
+    "LTC/HUF": {
+      "buy_rate": "60087.1019",
+      "sell_rate": "59769.9464"
+    },
+    "LTCTRY": {
+      "buy_rate": "1780.0879",
+      "sell_rate": "1770.6921"
+    },
+    "LTC/TRY": {
+      "buy_rate": "1780.0879",
+      "sell_rate": "1770.6921"
+    },
+    "LTCVND": {
+      "buy_rate": "4421801.0289",
+      "sell_rate": "4398461.5973"
+    },
+    "LTC/VND": {
+      "buy_rate": "4421801.0289",
+      "sell_rate": "4398461.5973"
+    },
+    "USDCNY": {
+      "buy_rate": "6.5171",
+      "sell_rate": "6.3562"
+    },
+    "USD/CNY": {
+      "buy_rate": "6.5171",
+      "sell_rate": "6.3562"
+    },
+    "USDSEK": {
+      "buy_rate": "8.7248",
+      "sell_rate": "8.5094"
+    },
+    "USD/SEK": {
+      "buy_rate": "8.7248",
+      "sell_rate": "8.5094"
+    },
+    "USDTHKD": {
+      "buy_rate": "8.0184",
+      "sell_rate": "7.9687"
+    },
+    "USDT/HKD": {
+      "buy_rate": "8.0184",
+      "sell_rate": "7.9687"
+    },
+    "USDTMXN": {
+      "buy_rate": "21.1804",
+      "sell_rate": "21.0491"
+    },
+    "USDT/MXN": {
+      "buy_rate": "21.1804",
+      "sell_rate": "21.0491"
+    },
+    "USDTRUB": {
+      "buy_rate": "73.8797",
+      "sell_rate": "73.4215"
+    },
+    "USDT/RUB": {
+      "buy_rate": "73.8797",
+      "sell_rate": "73.4215"
+    },
+    "XRPMXN": {
+      "buy_rate": "24.984653",
+      "sell_rate": "24.663603"
+    },
+    "XRP/MXN": {
+      "buy_rate": "24.984653",
+      "sell_rate": "24.663603"
+    },
+    "XRPTWD": {
+      "buy_rate": "34.137754",
+      "sell_rate": "33.69903"
+    },
+    "XRP/TWD": {
+      "buy_rate": "34.137754",
+      "sell_rate": "33.69903"
+    },
+    "EURNOK": {
+      "buy_rate": "9.917",
+      "sell_rate": "9.6721"
+    },
+    "EUR/NOK": {
+      "buy_rate": "9.917",
+      "sell_rate": "9.6721"
+    },
+    "EURSGD": {
+      "buy_rate": "1.5847",
+      "sell_rate": "1.5456"
+    },
+    "EUR/SGD": {
+      "buy_rate": "1.5847",
+      "sell_rate": "1.5456"
+    },
+    "EURUSD": {
+      "buy_rate": "1.1756",
+      "sell_rate": "1.1466"
+    },
+    "EUR/USD": {
+      "buy_rate": "1.1756",
+      "sell_rate": "1.1466"
+    },
+    "LTCCOP": {
+      "buy_rate": "726755.0159",
+      "sell_rate": "722919.0114"
+    },
+    "LTC/COP": {
+      "buy_rate": "726755.0159",
+      "sell_rate": "722919.0114"
+    },
+    "LTCIDR": {
+      "buy_rate": "2739998.1937",
+      "sell_rate": "2725535.7608"
+    },
+    "LTC/IDR": {
+      "buy_rate": "2739998.1937",
+      "sell_rate": "2725535.7608"
+    },
+    "LTCMXN": {
+      "buy_rate": "3992.486",
+      "sell_rate": "3971.4126"
+    },
+    "LTC/MXN": {
+      "buy_rate": "3992.486",
+      "sell_rate": "3971.4126"
+    },
+    "LTCTWD": {
+      "buy_rate": "5455.1236",
+      "sell_rate": "5426.33"
+    },
+    "LTC/TWD": {
+      "buy_rate": "5455.1236",
+      "sell_rate": "5426.33"
+    },
+    "USDAUD": {
+      "buy_rate": "1.2908",
+      "sell_rate": "1.3322"
+    },
+    "USD/AUD": {
+      "buy_rate": "1.2908",
+      "sell_rate": "1.3322"
+    },
+    "USDCOP": {
+      "buy_rate": "3786.8229",
+      "sell_rate": "3693.3211"
+    },
+    "USD/COP": {
+      "buy_rate": "3786.8229",
+      "sell_rate": "3693.3211"
+    },
+    "USDNOK": {
+      "buy_rate": "8.5413",
+      "sell_rate": "8.3304"
+    },
+    "USD/NOK": {
+      "buy_rate": "8.5413",
+      "sell_rate": "8.3304"
+    },
+    "USDSGD": {
+      "buy_rate": "1.3649",
+      "sell_rate": "1.3312"
+    },
+    "USD/SGD": {
+      "buy_rate": "1.3649",
+      "sell_rate": "1.3312"
+    },
+    "USDVND": {
+      "buy_rate": "23040.1954",
+      "sell_rate": "22471.3017"
+    },
+    "USD/VND": {
+      "buy_rate": "23040.1954",
+      "sell_rate": "22471.3017"
+    },
+    "USDTCNY": {
+      "buy_rate": "6.6353",
+      "sell_rate": "6.5941"
+    },
+    "USDT/CNY": {
+      "buy_rate": "6.6353",
+      "sell_rate": "6.5941"
+    },
+    "USDTHUF": {
+      "buy_rate": "318.767",
+      "sell_rate": "316.7896"
+    },
+    "USDT/HUF": {
+      "buy_rate": "318.767",
+      "sell_rate": "316.7896"
+    },
+    "USDTMYR": {
+      "buy_rate": "4.2822",
+      "sell_rate": "4.2557"
+    },
+    "USDT/MYR": {
+      "buy_rate": "4.2822",
+      "sell_rate": "4.2557"
+    },
+    "EURTRY": {
+      "buy_rate": "10.7692",
+      "sell_rate": "10.5033"
+    },
+    "EUR/TRY": {
+      "buy_rate": "10.7692",
+      "sell_rate": "10.5033"
+    },
+    "GBPEUR": {
+      "buy_rate": "1.1958",
+      "sell_rate": "1.1663"
+    },
+    "GBP/EUR": {
+      "buy_rate": "1.1958",
+      "sell_rate": "1.1663"
+    },
+    "LTCCAD": {
+      "buy_rate": "240.6489",
+      "sell_rate": "239.3787"
+    },
+    "LTC/CAD": {
+      "buy_rate": "240.6489",
+      "sell_rate": "239.3787"
+    },
+    "LTCGBP": {
+      "buy_rate": "141.7098",
+      "sell_rate": "146.6141"
+    },
+    "LTC/GBP": {
+      "buy_rate": "141.7098",
+      "sell_rate": "146.6141"
+    },
+    "LTCJPY": {
+      "buy_rate": "22038.9068",
+      "sell_rate": "21922.5796"
+    },
+    "LTC/JPY": {
+      "buy_rate": "22038.9068",
+      "sell_rate": "21922.5796"
+    },
+    "LTCNOK": {
+      "buy_rate": "1639.212",
+      "sell_rate": "1630.5599"
+    },
+    "LTC/NOK": {
+      "buy_rate": "1639.212",
+      "sell_rate": "1630.5599"
+    },
+    "LTCSGD": {
+      "buy_rate": "261.9406",
+      "sell_rate": "260.5579"
+    },
+    "LTC/SGD": {
+      "buy_rate": "261.9406",
+      "sell_rate": "260.5579"
+    },
+    "USDCAD": {
+      "buy_rate": "1.254",
+      "sell_rate": "1.223"
+    },
+    "USD/CAD": {
+      "buy_rate": "1.254",
+      "sell_rate": "1.223"
+    },
+    "USDKZT": {
+      "buy_rate": "431.2852",
+      "sell_rate": "420.6361"
+    },
+    "USD/KZT": {
+      "buy_rate": "431.2852",
+      "sell_rate": "420.6361"
+    },
+    "USDTRY": {
+      "buy_rate": "9.2753",
+      "sell_rate": "9.0463"
+    },
+    "USD/TRY": {
+      "buy_rate": "9.2753",
+      "sell_rate": "9.0463"
+    },
+    "USDTBRL": {
+      "buy_rate": "5.684",
+      "sell_rate": "5.6487"
+    },
+    "USDT/BRL": {
+      "buy_rate": "5.684",
+      "sell_rate": "5.6487"
+    },
+    "USDTEUR": {
+      "buy_rate": "0.8864",
+      "sell_rate": "0.8824"
+    },
+    "USDT/EUR": {
+      "buy_rate": "0.8864",
+      "sell_rate": "0.8824"
+    },
+    "USDTNOK": {
+      "buy_rate": "8.6962",
+      "sell_rate": "8.6423"
+    },
+    "USDT/NOK": {
+      "buy_rate": "8.6962",
+      "sell_rate": "8.6423"
+    },
+    "USDTTHB": {
+      "buy_rate": "34.2452",
+      "sell_rate": "34.0328"
+    },
+    "USDT/THB": {
+      "buy_rate": "34.2452",
+      "sell_rate": "34.0328"
+    },
+    "LTCNZD": {
+      "buy_rate": "276.4441",
+      "sell_rate": "274.985"
+    },
+    "LTC/NZD": {
+      "buy_rate": "276.4441",
+      "sell_rate": "274.985"
+    },
+    "LTCTHB": {
+      "buy_rate": "6455.1702",
+      "sell_rate": "6421.0981"
+    },
+    "LTC/THB": {
+      "buy_rate": "6455.1702",
+      "sell_rate": "6421.0981"
+    },
+    "LTCUSDT": {
+      "buy_rate": "187.3198",
+      "sell_rate": "193.5267"
+    },
+    "LTC/USDT": {
+      "buy_rate": "187.3198",
+      "sell_rate": "193.5267"
+    },
+    "USDTNZD": {
+      "buy_rate": "1.4666",
+      "sell_rate": "1.4575"
+    },
+    "USDT/NZD": {
+      "buy_rate": "1.4666",
+      "sell_rate": "1.4575"
+    },
+    "USDTTRY": {
+      "buy_rate": "9.4436",
+      "sell_rate": "9.385"
+    },
+    "USDT/TRY": {
+      "buy_rate": "9.4436",
+      "sell_rate": "9.385"
+    },
+    "XRPCNY": {
+      "buy_rate": "7.827",
+      "sell_rate": "7.726418"
+    },
+    "XRP/CNY": {
+      "buy_rate": "7.827",
+      "sell_rate": "7.726418"
+    },
+    "XRPHUF": {
+      "buy_rate": "376.021035",
+      "sell_rate": "371.188808"
+    },
+    "XRP/HUF": {
+      "buy_rate": "376.021035",
+      "sell_rate": "371.188808"
+    },
+    "XRPKZT": {
+      "buy_rate": "517.974548",
+      "sell_rate": "511.318119"
+    },
+    "XRP/KZT": {
+      "buy_rate": "517.974548",
+      "sell_rate": "511.318119"
+    },
+    "XRPNZD": {
+      "buy_rate": "1.729968",
+      "sell_rate": "1.707738"
+    },
+    "XRP/NZD": {
+      "buy_rate": "1.729968",
+      "sell_rate": "1.707738"
+    },
+    "XRPTHB": {
+      "buy_rate": "40.396017",
+      "sell_rate": "39.87683"
+    },
+    "XRP/THB": {
+      "buy_rate": "40.396017",
+      "sell_rate": "39.87683"
+    },
+    "USDKRW": {
+      "buy_rate": "1200.37",
+      "sell_rate": "1170.7313"
+    },
+    "USD/KRW": {
+      "buy_rate": "1200.37",
+      "sell_rate": "1170.7313"
+    },
+    "USDNZD": {
+      "buy_rate": "1.4405",
+      "sell_rate": "1.4049"
+    },
+    "USD/NZD": {
+      "buy_rate": "1.4405",
+      "sell_rate": "1.4049"
+    },
+    "USDTHB": {
+      "buy_rate": "33.6352",
+      "sell_rate": "32.8047"
+    },
+    "USD/THB": {
+      "buy_rate": "33.6352",
+      "sell_rate": "32.8047"
+    },
+    "USDTCOP": {
+      "buy_rate": "3855.4961",
+      "sell_rate": "3831.5775"
+    },
+    "USDT/COP": {
+      "buy_rate": "3855.4961",
+      "sell_rate": "3831.5775"
+    },
+    "USDTIDR": {
+      "buy_rate": "14535.9192",
+      "sell_rate": "14445.7418"
+    },
+    "USDT/IDR": {
+      "buy_rate": "14535.9192",
+      "sell_rate": "14445.7418"
+    },
+    "USDTPLN": {
+      "buy_rate": "4.0582",
+      "sell_rate": "4.033"
+    },
+    "USDT/PLN": {
+      "buy_rate": "4.0582",
+      "sell_rate": "4.033"
+    },
+    "XRPBRL": {
+      "buy_rate": "6.704856",
+      "sell_rate": "6.618699"
+    },
+    "XRP/BRL": {
+      "buy_rate": "6.704856",
+      "sell_rate": "6.618699"
+    },
+    "XRPCOP": {
+      "buy_rate": "4547.984355",
+      "sell_rate": "4489.538993"
+    },
+    "XRP/COP": {
+      "buy_rate": "4547.984355",
+      "sell_rate": "4489.538993"
+    },
+    "XRPIDR": {
+      "buy_rate": "17146.725773",
+      "sell_rate": "16926.376174"
+    },
+    "XRP/IDR": {
+      "buy_rate": "17146.725773",
+      "sell_rate": "16926.376174"
+    },
+    "XRPHKD": {
+      "buy_rate": "9.458522",
+      "sell_rate": "9.336981"
+    },
+    "XRP/HKD": {
+      "buy_rate": "9.458522",
+      "sell_rate": "9.336981"
+    },
+    "XRPKRW": {
+      "buy_rate": "1441.647518",
+      "sell_rate": "1423.121208"
+    },
+    "XRP/KRW": {
+      "buy_rate": "1441.647518",
+      "sell_rate": "1423.121208"
+    },
+    "XRPNOK": {
+      "buy_rate": "10.258073",
+      "sell_rate": "10.12625"
+    },
+    "XRP/NOK": {
+      "buy_rate": "10.258073",
+      "sell_rate": "10.12625"
+    },
+    "XRPSGD": {
+      "buy_rate": "1.639197",
+      "sell_rate": "1.618142"
+    },
+    "XRP/SGD": {
+      "buy_rate": "1.639197",
+      "sell_rate": "1.618142"
+    },
+    "XRPUSD": {
+      "buy_rate": "1.216015",
+      "sell_rate": "1.266501"
+    },
+    "XRP/USD": {
+      "buy_rate": "1.216015",
+      "sell_rate": "1.266501"
+    },
+    "BCHAUD": {
+      "buy_rate": "826.7092",
+      "sell_rate": "870.2231"
+    },
+    "BCH/AUD": {
+      "buy_rate": "826.7092",
+      "sell_rate": "870.2231"
+    },
+    "EURJPY": {
+      "buy_rate": "133.3312",
+      "sell_rate": "130.0391"
+    },
+    "EUR/JPY": {
+      "buy_rate": "133.3312",
+      "sell_rate": "130.0391"
+    },
+    "BCHCHF": {
+      "buy_rate": "598.9188",
+      "sell_rate": "593.6594"
+    },
+    "BCH/CHF": {
+      "buy_rate": "598.9188",
+      "sell_rate": "593.6594"
+    },
+    "BCHGBP": {
+      "buy_rate": "474.5991",
+      "sell_rate": "489.6581"
+    },
+    "BCH/GBP": {
+      "buy_rate": "474.5991",
+      "sell_rate": "489.6581"
+    },
+    "BCHMYR": {
+      "buy_rate": "2703.3456",
+      "sell_rate": "2679.606"
+    },
+    "BCH/MYR": {
+      "buy_rate": "2703.3456",
+      "sell_rate": "2679.606"
+    },
+    "BCHSEK": {
+      "buy_rate": "5607.8087",
+      "sell_rate": "5558.5634"
+    },
+    "BCH/SEK": {
+      "buy_rate": "5607.8087",
+      "sell_rate": "5558.5634"
+    },
+    "BCHUAH": {
+      "buy_rate": "17165.8039",
+      "sell_rate": "17015.0615"
+    },
+    "BCH/UAH": {
+      "buy_rate": "17165.8039",
+      "sell_rate": "17015.0615"
+    },
+    "BTCCOP": {
+      "buy_rate": "220157889.0557",
+      "sell_rate": "230896231.5141"
+    },
+    "BTC/COP": {
+      "buy_rate": "220157889.0557",
+      "sell_rate": "230896231.5141"
+    },
+    "BTCIDR": {
+      "buy_rate": "830035163.3181",
+      "sell_rate": "870520661.5869"
+    },
+    "BTC/IDR": {
+      "buy_rate": "830035163.3181",
+      "sell_rate": "870520661.5869"
+    },
+    "ETHNOK": {
+      "buy_rate": "31914.2293",
+      "sell_rate": "33567.3446"
+    },
+    "ETH/NOK": {
+      "buy_rate": "31914.2293",
+      "sell_rate": "33567.3446"
+    },
+    "ETHSGD": {
+      "buy_rate": "5099.7858",
+      "sell_rate": "5363.948"
+    },
+    "ETH/SGD": {
+      "buy_rate": "5099.7858",
+      "sell_rate": "5363.948"
+    },
+    "ETHUSD": {
+      "buy_rate": "3748.0702",
+      "sell_rate": "3975.8316"
+    },
+    "ETH/USD": {
+      "buy_rate": "3748.0702",
+      "sell_rate": "3975.8316"
+    },
+    "XRPBTC": {
+      "buy_rate": "0.00002007",
+      "sell_rate": "0.00002023"
+    },
+    "XRP/BTC": {
+      "buy_rate": "0.00002007",
+      "sell_rate": "0.00002023"
+    },
+    "USDCHF": {
+      "buy_rate": "0.9319",
+      "sell_rate": "0.9089"
+    },
+    "USD/CHF": {
+      "buy_rate": "0.9319",
+      "sell_rate": "0.9089"
+    },
+    "USDIDR": {
+      "buy_rate": "14277.0091",
+      "sell_rate": "13924.4904"
+    },
+    "USD/IDR": {
+      "buy_rate": "14277.0091",
+      "sell_rate": "13924.4904"
+    },
+    "USDMXN": {
+      "buy_rate": "20.8032",
+      "sell_rate": "20.2895"
+    },
+    "USD/MXN": {
+      "buy_rate": "20.8032",
+      "sell_rate": "20.2895"
+    },
+    "USDRUB": {
+      "buy_rate": "72.5638",
+      "sell_rate": "70.7721"
+    },
+    "USD/RUB": {
+      "buy_rate": "72.5638",
+      "sell_rate": "70.7721"
+    },
+    "USDTWD": {
+      "buy_rate": "28.4244",
+      "sell_rate": "27.7225"
+    },
+    "USD/TWD": {
+      "buy_rate": "28.4244",
+      "sell_rate": "27.7225"
+    },
+    "USDTCAD": {
+      "buy_rate": "1.2767",
+      "sell_rate": "1.2688"
+    },
+    "USDT/CAD": {
+      "buy_rate": "1.2767",
+      "sell_rate": "1.2688"
+    },
+    "USDTGBP": {
+      "buy_rate": "0.7518",
+      "sell_rate": "0.7472"
+    },
+    "USDT/GBP": {
+      "buy_rate": "0.7518",
+      "sell_rate": "0.7472"
+    },
+    "USDTJPY": {
+      "buy_rate": "116.9183",
+      "sell_rate": "116.193"
+    },
+    "USDT/JPY": {
+      "buy_rate": "116.9183",
+      "sell_rate": "116.193"
+    },
+    "USDTVND": {
+      "buy_rate": "23458.0238",
+      "sell_rate": "23312.4956"
+    },
+    "USDT/VND": {
+      "buy_rate": "23458.0238",
+      "sell_rate": "23312.4956"
+    },
+    "XRPCHF": {
+      "buy_rate": "1.119108",
+      "sell_rate": "1.104727"
+    },
+    "XRP/CHF": {
+      "buy_rate": "1.119108",
+      "sell_rate": "1.104727"
+    },
+    "USDTUSD": {
+      "buy_rate": "1.0181",
+      "sell_rate": "1.0381"
+    },
+    "USDT/USD": {
+      "buy_rate": "1.0181",
+      "sell_rate": "1.0381"
+    },
+    "XRPCAD": {
+      "buy_rate": "1.505963",
+      "sell_rate": "1.486612"
+    },
+    "XRP/CAD": {
+      "buy_rate": "1.505963",
+      "sell_rate": "1.486612"
+    },
+    "XRPGBP": {
+      "buy_rate": "0.886811",
+      "sell_rate": "0.922799"
+    },
+    "XRP/GBP": {
+      "buy_rate": "0.886811",
+      "sell_rate": "0.922799"
+    },
+    "XRPJPY": {
+      "buy_rate": "137.917992",
+      "sell_rate": "136.145638"
+    },
+    "XRP/JPY": {
+      "buy_rate": "137.917992",
+      "sell_rate": "136.145638"
+    },
+    "XRPMYR": {
+      "buy_rate": "5.051322",
+      "sell_rate": "4.986411"
+    },
+    "XRP/MYR": {
+      "buy_rate": "5.051322",
+      "sell_rate": "4.986411"
+    },
+    "XRPSEK": {
+      "buy_rate": "10.478444",
+      "sell_rate": "10.343786"
+    },
+    "XRP/SEK": {
+      "buy_rate": "10.478444",
+      "sell_rate": "10.343786"
+    },
+    "XRPUAH": {
+      "buy_rate": "32.075089",
+      "sell_rate": "31.662904"
+    },
+    "XRP/UAH": {
+      "buy_rate": "32.075089",
+      "sell_rate": "31.662904"
+    },
+    "XRPPLN": {
+      "buy_rate": "4.78705",
+      "sell_rate": "4.725534"
+    },
+    "XRP/PLN": {
+      "buy_rate": "4.78705",
+      "sell_rate": "4.725534"
+    },
+    "XRPTRY": {
+      "buy_rate": "11.139667",
+      "sell_rate": "10.996514"
+    },
+    "XRP/TRY": {
+      "buy_rate": "11.139667",
+      "sell_rate": "10.996514"
+    },
+    "XRPVND": {
+      "buy_rate": "27671.335628",
+      "sell_rate": "27315.736188"
+    },
+    "XRP/VND": {
+      "buy_rate": "27671.335628",
+      "sell_rate": "27315.736188"
+    },
+    "XRPUSDT": {
+      "buy_rate": "1.172279",
+      "sell_rate": "1.218107"
+    },
+    "XRP/USDT": {
+      "buy_rate": "1.172279",
+      "sell_rate": "1.218107"
+    },
+    "BTCAUD": {
+      "buy_rate": "74699.0429",
+      "sell_rate": "83284.2703"
+    },
+    "BTC/AUD": {
+      "buy_rate": "74699.0429",
+      "sell_rate": "83284.2703"
+    },
+    "BTCBRL": {
+      "buy_rate": "324567.6655",
+      "sell_rate": "340398.6618"
+    },
+    "BTC/BRL": {
+      "buy_rate": "324567.6655",
+      "sell_rate": "340398.6618"
+    },
+    "BTCCAD": {
+      "buy_rate": "72900.4347",
+      "sell_rate": "76456.2002"
+    },
+    "BTC/CAD": {
+      "buy_rate": "72900.4347",
+      "sell_rate": "76456.2002"
+    },
+    "BTCCHF": {
+      "buy_rate": "54173.5324",
+      "sell_rate": "56815.8813"
+    },
+    "BTC/CHF": {
+      "buy_rate": "54173.5324",
+      "sell_rate": "56815.8813"
+    }
+  }
+}

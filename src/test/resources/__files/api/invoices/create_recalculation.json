@@ -1,0 +1,22 @@
+{
+  "data": {
+    "id": "b6894a86-690b-4a99-a6ac-25a961f5012c",
+    "invoice_id": "2738682a-11ff-4013-8380-6a70df995ea9",
+    "pay_amount": "0.02623524",
+    "pay_currency": "ETH",
+    "price_amount": "89.21",
+    "price_currency": "EUR",
+    "fee": "0.9",
+    "fee_currency": "EUR",
+    "previous_pay_amount": "0.02987883",
+    "previous_price_amount": "100.0",
+    "previous_exchange_rate": "3346.8521",
+    "exchange": {
+      "pair": "ETHEUR",
+      "rate": "3400.4427",
+      "fee": "0.0",
+      "fee_currency": "EUR"
+    },
+    "created_at": "2021-10-14T11:27:27+00:00"
+  }
+}

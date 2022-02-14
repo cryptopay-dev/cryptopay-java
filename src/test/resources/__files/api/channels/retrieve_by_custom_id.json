@@ -1,0 +1,16 @@
+{
+  "data": {
+    "id": "350aa936-63f1-4590-ba4a-cb7a43cb696e",
+    "status": "enabled",
+    "name": "0",
+    "description": null,
+    "receiver_currency": "EUR",
+    "pay_currency": "BTC",
+    "address": "2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ",
+    "project_id": "cfc93c44-fef3-4ccc-ac8f-090f8e702006",
+    "custom_id": "CHANNEL-123",
+    "customer_id": null,
+    "uri": "bitcoin:2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ",
+    "hosted_page_url": "https://hosted-business-sandbox.cryptopay.me/channels/350aa936-63f1-4590-ba4a-cb7a43cb696e"
+  }
+}

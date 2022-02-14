@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/invoices",
+    "headers": {
+      "Authorization": {
+        "contains": "HMAC"
+      },
+      "Content-Type": {
+        "equalTo": "application/json"
+      },
+      "User-Agent": {
+        "contains": "Cryptopay Java"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToJson": "{\"price_amount\":100.0,\"price_currency\":\"EUR\",\"pay_currency\":\"BTC\",\"custom_id\":\"PAYMENT-123\",\"metadata\":{\"custom-key\":\"custom-value\"},\"success_redirect_url\":\"https://success.example.com\",\"unsuccess_redirect_url\":\"https://unsuccess.example.com\"}"
+    }]
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "api/invoices/create.json"
+  }
+}
