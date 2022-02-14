@@ -60,16 +60,13 @@ public class ApiClient {
     }
 
     /**
-     * {@link #execute(ApiRequest, Type)}.
+     * Execute API request.
      *
-     * @param <T> Type
      * @param apiRequest API Request
-     * @return T Java object deserialized from response body that would be null when returnType is
-     *     null.
      * @throws ApiException If fail to execute the call
      */
-    public <T> T execute(final ApiRequest apiRequest) throws ApiException {
-        return execute(apiRequest, null);
+    public void execute(final ApiRequest apiRequest) throws ApiException {
+        execute(apiRequest, null);
     }
 
     /**
