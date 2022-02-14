@@ -37,14 +37,14 @@ For _Maven_, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>me.cryptopay</groupId>
     <artifactId>cryptopay-java</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
 For _Gradle_, add the following dependency to your `build.gradle`:
 
 ```groovy
-implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '0.0.1'
+implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '0.0.2'
 ```
 
 ### Requirements
