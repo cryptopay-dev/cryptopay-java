@@ -34,6 +34,9 @@ public final class InvoiceRefund {
     @SerializedName("address")
     private String address;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("txid")
     private String txid;
 
@@ -191,6 +194,24 @@ public final class InvoiceRefund {
     }
 
     /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
+    }
+
+    /**
      * Get txid.
      *
      * @return txid
@@ -256,6 +277,7 @@ public final class InvoiceRefund {
         sb.append("fee=").append(fee).append(", ");
         sb.append("feeCurrency=").append(feeCurrency).append(", ");
         sb.append("address=").append(address).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("txid=").append(txid).append(", ");
         sb.append("risk=").append(risk).append(", ");
         sb.append("createdAt=").append(createdAt);

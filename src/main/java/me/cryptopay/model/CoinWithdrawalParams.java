@@ -17,6 +17,9 @@ public final class CoinWithdrawalParams {
     @SerializedName("received_currency")
     private String receivedCurrency;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("charged_amount")
     private BigDecimal chargedAmount;
 
@@ -93,6 +96,24 @@ public final class CoinWithdrawalParams {
      */
     public void setReceivedCurrency(final String receivedCurrency) {
         this.receivedCurrency = receivedCurrency;
+    }
+
+    /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
     }
 
     /**
@@ -228,6 +249,7 @@ public final class CoinWithdrawalParams {
         sb.append("address=").append(address).append(", ");
         sb.append("chargedCurrency=").append(chargedCurrency).append(", ");
         sb.append("receivedCurrency=").append(receivedCurrency).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("chargedAmount=").append(chargedAmount).append(", ");
         sb.append("chargedAmountToSend=").append(chargedAmountToSend).append(", ");
         sb.append("receivedAmount=").append(receivedAmount).append(", ");

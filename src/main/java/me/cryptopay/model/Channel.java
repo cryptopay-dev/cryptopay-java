@@ -30,6 +30,9 @@ public final class Channel {
     @SerializedName("address")
     private String address;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("project_id")
     private String projectId;
 
@@ -175,6 +178,24 @@ public final class Channel {
     }
 
     /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
+    }
+
+    /**
      * Get projectId.
      *
      * @return projectId
@@ -275,6 +296,7 @@ public final class Channel {
         sb.append("payCurrency=").append(payCurrency).append(", ");
         sb.append("receiverCurrency=").append(receiverCurrency).append(", ");
         sb.append("address=").append(address).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("projectId=").append(projectId).append(", ");
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId).append(", ");

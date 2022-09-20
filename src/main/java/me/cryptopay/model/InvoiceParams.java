@@ -19,6 +19,9 @@ public final class InvoiceParams {
     @SerializedName("pay_currency")
     private String payCurrency;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("custom_id")
     private String customId;
 
@@ -95,6 +98,24 @@ public final class InvoiceParams {
      */
     public void setPayCurrency(final String payCurrency) {
         this.payCurrency = payCurrency;
+    }
+
+    /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
     }
 
     /**
@@ -230,6 +251,7 @@ public final class InvoiceParams {
         sb.append("priceAmount=").append(priceAmount).append(", ");
         sb.append("priceCurrency=").append(priceCurrency).append(", ");
         sb.append("payCurrency=").append(payCurrency).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId).append(", ");
         sb.append("name=").append(name).append(", ");
