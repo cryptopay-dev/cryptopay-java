@@ -17,7 +17,7 @@ import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
 import me.cryptopay.model.*;
 
-public final class JSON {
+public class JSON {
     private final Gson gson;
 
     /** Creates a new instance of JSON encoder/decoder. */
