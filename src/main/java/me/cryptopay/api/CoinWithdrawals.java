@@ -175,6 +175,18 @@ public class CoinWithdrawals {
         }
 
         /**
+         * Set allNetworks.
+         *
+         * @param allNetworks Is &#x60;false&#x60; if omitted. Set &#x60;true&#x60; to return
+         *     network fees for all cryptocurrency networks
+         * @return listNetworkFeesCall
+         */
+        public ListNetworkFeesCall allNetworks(final Boolean allNetworks) {
+            request.addQueryParam("all_networks", allNetworks.toString());
+            return this;
+        }
+
+        /**
          * Execute listNetworkFees request.
          *
          * @return NetworkFeeListResult
