@@ -16,6 +16,9 @@ public final class ChannelParams {
     @SerializedName("pay_currency")
     private String payCurrency;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("receiver_currency")
     private String receiverCurrency;
 
@@ -83,6 +86,24 @@ public final class ChannelParams {
     }
 
     /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
+    }
+
+    /**
      * Get receiverCurrency.
      *
      * @return receiverCurrency
@@ -143,6 +164,7 @@ public final class ChannelParams {
         sb.append("name=").append(name).append(", ");
         sb.append("description=").append(description).append(", ");
         sb.append("payCurrency=").append(payCurrency).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("receiverCurrency=").append(receiverCurrency).append(", ");
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId);

@@ -22,6 +22,9 @@ public final class CoinWithdrawal {
     @SerializedName("address")
     private String address;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("txid")
     private String txid;
 
@@ -134,6 +137,24 @@ public final class CoinWithdrawal {
      */
     public void setAddress(final String address) {
         this.address = address;
+    }
+
+    /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
     }
 
     /**
@@ -378,6 +399,7 @@ public final class CoinWithdrawal {
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId).append(", ");
         sb.append("address=").append(address).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("txid=").append(txid).append(", ");
         sb.append("status=").append(status).append(", ");
         sb.append("chargedAmount=").append(chargedAmount).append(", ");

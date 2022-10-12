@@ -78,7 +78,6 @@ Examples of usage of the library can be found [here](example).
 
 ### Accounts
 
-[Accounts API docs](https://developers.cryptopay.me/reference/accounts)
 
 #### List accounts
 
@@ -98,7 +97,7 @@ TransactionListResult result = cryptopay.accounts().listTransactions(accountId).
 
 A channel is a static cryptocurrency address that may be assigned to each one of your customers.
 
-[Channels API docs](https://developers.cryptopay.me/reference/payment-channels)
+[Channels API docs](https://developers.cryptopay.me/guides/channels)
 
 #### Create a channel
 
@@ -165,7 +164,7 @@ ChannelResult result = cryptopay.channels().update(channelId, channelUpdateParam
 
 In addition to accepting payments through the Cryptopay payment gateway, it is also possible to make payments to your customers in any of the cryptocurrency currently supported by Cryptopay. In Cryptopay, these payments are called “Coin Withdrawal”. The process of requesting coin withdrawal is almost the same for a customer in Cashier as the process of making a deposit with one exception - the customer will need to specify the address of the wallet he wants to send the cryptocurrency to.
 
-[Coin withdrawals API docs](https://developers.cryptopay.me/reference/coin-withdrawals)
+[Coin withdrawals API docs](https://developers.cryptopay.me/guides/payouts)
 
 #### Commit a withdrawal
 
@@ -226,9 +225,8 @@ CoinWithdrawalResult result = cryptopay.coinWithdrawals().retrieveByCustomId(cus
 
 ### Customers
 
-Customer objects allow you to reject High-Risk transactions automatically, and to track multiple transactions, that are associated with the same customer
+Customer objects allow you to reject High-Risk transactions automatically, and to track multiple transactions, that are associated with the same customer.
 
-[Customers API docs](https://developers.cryptopay.me/reference/customers)
 
 #### Create a customer
 
@@ -270,7 +268,6 @@ CustomerResult result = cryptopay.customers().update(customerId, customerUpdateP
 
 ### ExchangeTransfers
 
-[Exchange transfers API docs](https://developers.cryptopay.me/reference/exchange)
 
 #### Commit an exchange transfer
 
@@ -312,7 +309,7 @@ ExchangeTransferResult result = cryptopay.exchangeTransfers().retrieve(exchangeT
 
 An invoice is a request for a cryptocurrency payment which contains a unique BTC, LTC, ETH or XRP address and the amount that has to be paid while the invoice is valid.
 
-[Invoices API docs](https://developers.cryptopay.me/reference/invoices)
+[Invoices API docs](https://developers.cryptopay.me/guides/invoices)
 
 #### Commit invoice recalculation
 
@@ -403,7 +400,6 @@ InvoiceResult result = cryptopay.invoices().retrieveByCustomId("PAYMENT-123").ex
 
 ### Rates
 
-[Public rates API docs](https://developers.cryptopay.me/reference/public-rates)
 
 #### Retrieve all rates
 
@@ -422,7 +418,7 @@ RateResult result = cryptopay.rates().retrieve(baseCurrency, quoteCurrency).exec
 
 ### Risks
 
-[Risks API docs](https://developers.cryptopay.me/reference/risks)
+[Risks API docs](https://developers.cryptopay.me/guides/risks)
 
 #### Score a coin address
 
@@ -437,7 +433,7 @@ RiskResult result = cryptopay.risks().score(riskParams).execute();
 
 ### Transactions
 
-[Transactions API docs](https://developers.cryptopay.me/reference/transactions)
+[Transactions API docs](https://developers.cryptopay.me/guides/transactions)
 
 #### List transactions
 

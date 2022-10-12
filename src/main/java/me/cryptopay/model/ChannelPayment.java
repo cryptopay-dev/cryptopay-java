@@ -64,6 +64,9 @@ public final class ChannelPayment {
     @SerializedName("address")
     private String address;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("created_at")
     private OffsetDateTime createdAt;
 
@@ -395,6 +398,24 @@ public final class ChannelPayment {
     }
 
     /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
+    }
+
+    /**
      * Get createdAt.
      *
      * @return createdAt
@@ -434,6 +455,7 @@ public final class ChannelPayment {
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId).append(", ");
         sb.append("address=").append(address).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("createdAt=").append(createdAt);
         sb.append(")");
         return sb.toString();

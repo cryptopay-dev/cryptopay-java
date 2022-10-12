@@ -17,6 +17,9 @@ public final class NetworkFee {
     @SerializedName("currency")
     private String currency;
 
+    @SerializedName("network")
+    private String network;
+
     /** Creates a new instance of NetworkFee. */
     public NetworkFee() {}
 
@@ -74,13 +77,32 @@ public final class NetworkFee {
         this.currency = currency;
     }
 
+    /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("NetworkFee(");
         sb.append("level=").append(level).append(", ");
         sb.append("fee=").append(fee).append(", ");
-        sb.append("currency=").append(currency);
+        sb.append("currency=").append(currency).append(", ");
+        sb.append("network=").append(network);
         sb.append(")");
         return sb.toString();
     }

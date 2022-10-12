@@ -31,6 +31,9 @@ public final class Invoice {
     @SerializedName("address")
     private String address;
 
+    @SerializedName("network")
+    private String network;
+
     @SerializedName("uri")
     private String uri;
 
@@ -194,6 +197,24 @@ public final class Invoice {
      */
     public void setAddress(final String address) {
         this.address = address;
+    }
+
+    /**
+     * Get network.
+     *
+     * @return network
+     */
+    public String getNetwork() {
+        return network;
+    }
+
+    /**
+     * Set network.
+     *
+     * @param network network
+     */
+    public void setNetwork(final String network) {
+        this.network = network;
     }
 
     /**
@@ -530,6 +551,7 @@ public final class Invoice {
         sb.append("status=").append(status).append(", ");
         sb.append("statusContext=").append(statusContext).append(", ");
         sb.append("address=").append(address).append(", ");
+        sb.append("network=").append(network).append(", ");
         sb.append("uri=").append(uri).append(", ");
         sb.append("priceAmount=").append(priceAmount).append(", ");
         sb.append("priceCurrency=").append(priceCurrency).append(", ");
