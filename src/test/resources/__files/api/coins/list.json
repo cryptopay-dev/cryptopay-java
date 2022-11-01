@@ -1,0 +1,289 @@
+{
+  "data": [
+    {
+      "currency": "BTC",
+      "name": "Bitcoin",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/BTC.svg",
+      "networks": [
+        {
+          "network": "bitcoin",
+          "name": "Bitcoin",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "LTC",
+      "name": "Litecoin",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/LTC.svg",
+      "networks": [
+        {
+          "network": "litecoin",
+          "name": "Litecoin",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "BCH",
+      "name": "Bitcoin Cash",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/BCH.svg",
+      "networks": [
+        {
+          "network": "bitcoin_cash",
+          "name": "Bitcoin Cash",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "XRP",
+      "name": "XRP",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/XRP.svg",
+      "networks": [
+        {
+          "network": "ripple",
+          "name": "Ripple",
+          "precision": 6,
+          "destination_tag": {
+            "required": true,
+            "name": "Destination tag"
+          },
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "ETH",
+      "name": "Ethereum",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/ETH.svg",
+      "networks": [
+        {
+          "network": "ethereum",
+          "name": "Ethereum (ERC20)",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "USDT",
+      "name": "Tether",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/USDT.svg",
+      "networks": [
+        {
+          "network": "ethereum",
+          "name": "Ethereum (ERC20)",
+          "precision": 6,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        },
+        {
+          "network": "tron",
+          "name": "Tron (TRC20)",
+          "precision": 6,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "DAI",
+      "name": "Dai",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/DAI.svg",
+      "networks": [
+        {
+          "network": "ethereum",
+          "name": "Ethereum (ERC20)",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "USDC",
+      "name": "USD Coin",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/USDC.svg",
+      "networks": [
+        {
+          "network": "ethereum",
+          "name": "Ethereum (ERC20)",
+          "precision": 6,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "XLM",
+      "name": "Stellar Lumens",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/XLM.svg",
+      "networks": [
+        {
+          "network": "stellar",
+          "name": "Stellar",
+          "precision": 7,
+          "destination_tag": {
+            "required": false,
+            "name": "Memo ID"
+          },
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "ADA",
+      "name": "Cardano",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/ADA.svg",
+      "networks": [
+        {
+          "network": "cardano",
+          "name": "Cardano",
+          "precision": 6,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "BNB",
+      "name": "BNB",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/BNB.svg",
+      "networks": [
+        {
+          "network": "bnb_smart_chain",
+          "name": "BNB Smart Chain (BEP20)",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    },
+    {
+      "currency": "BUSD",
+      "name": "Binance USD",
+      "logo_url": "https://ledger-development.s3.eu-west-1.amazonaws.com/public/currencies/BUSD.svg",
+      "networks": [
+        {
+          "network": "bnb_smart_chain",
+          "name": "BNB Smart Chain (BEP20)",
+          "precision": 8,
+          "destination_tag": null,
+          "invoices": {
+            "enabled": true
+          },
+          "channels": {
+            "enabled": true
+          },
+          "coin_withdrawals": {
+            "enabled": true
+          }
+        }
+      ]
+    }
+  ]
+}

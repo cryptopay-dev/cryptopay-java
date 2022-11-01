@@ -15,6 +15,7 @@ For more information, please visit [Cryptopay API docs](https://developers.crypt
   * [Accounts](#accounts)
   * [Channels](#channels)
   * [CoinWithdrawals](#coinwithdrawals)
+  * [Coins](#coins)
   * [Customers](#customers)
   * [ExchangeTransfers](#exchangetransfers)
   * [Invoices](#invoices)
@@ -37,14 +38,14 @@ For _Maven_, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>me.cryptopay</groupId>
     <artifactId>cryptopay-java</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
 For _Gradle_, add the following dependency to your `build.gradle`:
 
 ```groovy
-implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '1.0.0'
+implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '1.1.0'
 ```
 
 ### Requirements
@@ -221,6 +222,15 @@ CoinWithdrawalResult result = cryptopay.coinWithdrawals().retrieve(coinWithdrawa
 String customId = "PAYMENT-123";
 
 CoinWithdrawalResult result = cryptopay.coinWithdrawals().retrieveByCustomId(customId).execute();
+```
+
+### Coins
+
+
+#### List supported coins
+
+```java
+CoinListResult result = cryptopay.coins().list().execute();
 ```
 
 ### Customers

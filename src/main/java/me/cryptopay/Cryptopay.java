@@ -4,6 +4,7 @@ package me.cryptopay;
 import me.cryptopay.api.Accounts;
 import me.cryptopay.api.Channels;
 import me.cryptopay.api.CoinWithdrawals;
+import me.cryptopay.api.Coins;
 import me.cryptopay.api.Customers;
 import me.cryptopay.api.ExchangeTransfers;
 import me.cryptopay.api.Invoices;
@@ -26,7 +27,7 @@ public final class Cryptopay {
     public static final String API_URL_SANDBOX = "https://business-sandbox.cryptopay.me";
 
     private static final String USER_AGENT = "Cryptopay Java %s";
-    private static final String VERSION = "1.0.0";
+    private static final String VERSION = "1.1.0";
 
     private final ApiClient apiClient;
     private final JSON json;
@@ -40,6 +41,7 @@ public final class Cryptopay {
     private final Rates rates;
     private final Risks risks;
     private final Transactions transactions;
+    private final Coins coins;
     private final CallbackParser callbacks;
 
     /**
@@ -68,6 +70,7 @@ public final class Cryptopay {
         this.rates = new Rates(apiClient);
         this.risks = new Risks(apiClient);
         this.transactions = new Transactions(apiClient);
+        this.coins = new Coins(apiClient);
 
         this.callbacks = new CallbackParser(new HmacValidator(builder.getCallbackSecret()), json);
     }
@@ -160,6 +163,15 @@ public final class Cryptopay {
      */
     public Transactions transactions() {
         return this.transactions;
+    }
+
+    /**
+     * Returns coins API.
+     *
+     * @return coins API
+     */
+    public Coins coins() {
+        return this.coins;
     }
 
     /**
