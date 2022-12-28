@@ -27,7 +27,7 @@ public final class Cryptopay {
     public static final String API_URL_SANDBOX = "https://business-sandbox.cryptopay.me";
 
     private static final String USER_AGENT = "Cryptopay Java %s";
-    private static final String VERSION = "1.1.0";
+    private static final String VERSION = "2.0.0";
 
     private final ApiClient apiClient;
     private final JSON json;

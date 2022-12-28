@@ -38,14 +38,14 @@ For _Maven_, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>me.cryptopay</groupId>
     <artifactId>cryptopay-java</artifactId>
-    <version>1.1.0</version>
+    <version>2.0.0</version>
 </dependency>
 ```
 
 For _Gradle_, add the following dependency to your `build.gradle`:
 
 ```groovy
-implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '1.1.0'
+implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '2.0.0'
 ```
 
 ### Requirements
@@ -241,12 +241,15 @@ Customer objects allow you to reject High-Risk transactions automatically, and t
 #### Create a customer
 
 ```java
+CustomerAddress customerAddress = new CustomerAddress();
+customerAddress.setAddress("2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg");
+customerAddress.setCurrency("BTC");
+customerAddress.setNetwork("bitcoin");
+
 CustomerParams customerParams = new CustomerParams();
 customerParams.setId("CUSTOMER-123");
 customerParams.setCurrency("BTC");
-customerParams.setRefundAddresses(Map.of(
-            "BTC", "2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg",
-            "ETH", "0x54baa6f4ff2374b2f8f3a32c0c3dad0acbdb42b2"));
+customerParams.setAddresses(List.of(customerAddress));
 
 CustomerResult result = cryptopay.customers().create(customerParams).execute();
 ```
@@ -270,8 +273,13 @@ CustomerResult result = cryptopay.customers().retrieve(customerId).execute();
 ```java
 String customerId = "CUSTOMER-123";
 
+CustomerAddress customerAddress = new CustomerAddress();
+customerAddress.setAddress("2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ");
+customerAddress.setCurrency("BTC");
+customerAddress.setNetwork("bitcoin");
+
 CustomerUpdateParams customerUpdateParams = new CustomerUpdateParams();
-customerUpdateParams.setRefundAddresses(Map.of("BTC", "2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ"));
+customerUpdateParams.setAddresses(List.of(customerAddress));
 
 CustomerResult result = cryptopay.customers().update(customerId, customerUpdateParams).execute();
 ```
