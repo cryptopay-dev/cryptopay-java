@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.notNullValue;
 
 import com.github.tomakehurst.wiremock.junit5.WireMockRuntimeInfo;
 import com.github.tomakehurst.wiremock.junit5.WireMockTest;
-import java.util.Map;
+import java.util.List;
 import me.cryptopay.Cryptopay;
 import me.cryptopay.exception.ApiException;
 import me.cryptopay.model.*;
@@ -32,13 +32,15 @@ public class CustomersTest {
 
     @Test
     public void createTest() throws ApiException {
+        CustomerAddress customerAddress = new CustomerAddress();
+        customerAddress.setAddress("2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg");
+        customerAddress.setCurrency("BTC");
+        customerAddress.setNetwork("bitcoin");
+
         CustomerParams customerParams = new CustomerParams();
         customerParams.setId("CUSTOMER-123");
         customerParams.setCurrency("BTC");
-        customerParams.setRefundAddresses(
-                Map.of(
-                        "BTC", "2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg",
-                        "ETH", "0x54baa6f4ff2374b2f8f3a32c0c3dad0acbdb42b2"));
+        customerParams.setAddresses(List.of(customerAddress));
 
         CustomerResult result = cryptopay.customers().create(customerParams).execute();
 
@@ -65,9 +67,13 @@ public class CustomersTest {
     public void updateTest() throws ApiException {
         String customerId = "CUSTOMER-123";
 
+        CustomerAddress customerAddress = new CustomerAddress();
+        customerAddress.setAddress("2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ");
+        customerAddress.setCurrency("BTC");
+        customerAddress.setNetwork("bitcoin");
+
         CustomerUpdateParams customerUpdateParams = new CustomerUpdateParams();
-        customerUpdateParams.setRefundAddresses(
-                Map.of("BTC", "2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ"));
+        customerUpdateParams.setAddresses(List.of(customerAddress));
 
         CustomerResult result =
                 cryptopay.customers().update(customerId, customerUpdateParams).execute();

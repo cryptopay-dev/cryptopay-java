@@ -14,7 +14,7 @@
       }
     },
     "bodyPatterns": [{
-      "equalToJson": "{\"refund_addresses\":{\"BTC\":\"2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ\"}}"
+      "equalToJson": "{\"addresses\":[{\"address\":\"2N9wPGx67zdSeAbXi15qHgoZ9Hb9Uxhd2uQ\",\"currency\":\"BTC\",\"network\":\"bitcoin\"}]}"
     }]
   },
   "response": {

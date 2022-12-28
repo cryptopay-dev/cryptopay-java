@@ -5,7 +5,7 @@ package me.cryptopay.model;
 
 
 import com.google.gson.annotations.SerializedName;
-import java.util.Map;
+import java.util.List;
 
 public final class CustomerParams {
     @SerializedName("id")
@@ -14,8 +14,8 @@ public final class CustomerParams {
     @SerializedName("currency")
     private String currency;
 
-    @SerializedName("refund_addresses")
-    private Map<String, String> refundAddresses;
+    @SerializedName("addresses")
+    private List<CustomerAddress> addresses;
 
     /** Creates a new instance of CustomerParams. */
     public CustomerParams() {}
@@ -57,21 +57,21 @@ public final class CustomerParams {
     }
 
     /**
-     * Get refundAddresses.
+     * Get addresses.
      *
-     * @return refundAddresses
+     * @return addresses
      */
-    public Map<String, String> getRefundAddresses() {
-        return refundAddresses;
+    public List<CustomerAddress> getAddresses() {
+        return addresses;
     }
 
     /**
-     * Set refundAddresses.
+     * Set addresses.
      *
-     * @param refundAddresses refundAddresses
+     * @param addresses addresses
      */
-    public void setRefundAddresses(final Map<String, String> refundAddresses) {
-        this.refundAddresses = refundAddresses;
+    public void setAddresses(final List<CustomerAddress> addresses) {
+        this.addresses = addresses;
     }
 
     @Override
@@ -80,7 +80,7 @@ public final class CustomerParams {
         sb.append("CustomerParams(");
         sb.append("id=").append(id).append(", ");
         sb.append("currency=").append(currency).append(", ");
-        sb.append("refundAddresses=").append(refundAddresses);
+        sb.append("addresses=").append(addresses);
         sb.append(")");
         return sb.toString();
     }

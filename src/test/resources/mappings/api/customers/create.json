@@ -14,7 +14,7 @@
       }
     },
     "bodyPatterns": [{
-      "equalToJson": "{\"id\":\"CUSTOMER-123\",\"currency\":\"BTC\",\"refund_addresses\":{\"BTC\":\"2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg\",\"ETH\":\"0x54baa6f4ff2374b2f8f3a32c0c3dad0acbdb42b2\"}}"
+      "equalToJson": "{\"id\":\"CUSTOMER-123\",\"currency\":\"BTC\",\"addresses\":[{\"address\":\"2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg\",\"currency\":\"BTC\",\"network\":\"bitcoin\"}]}"
     }]
   },
   "response": {
