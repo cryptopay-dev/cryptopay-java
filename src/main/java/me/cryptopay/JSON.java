@@ -60,6 +60,10 @@ public class JSON {
                                 return InvoiceCallback.class;
                             case "InvoiceCallback":
                                 return InvoiceCallback.class;
+                            case "Subscription":
+                                return SubscriptionCallback.class;
+                            case "SubscriptionCallback":
+                                return SubscriptionCallback.class;
                             default:
                                 throw new IllegalArgumentException(
                                         "cannot determine model class of name: <"

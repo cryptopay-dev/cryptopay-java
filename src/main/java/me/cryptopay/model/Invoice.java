@@ -22,6 +22,9 @@ public final class Invoice {
     @SerializedName("customer_id")
     private String customerId;
 
+    @SerializedName("subscription_id")
+    private UUID subscriptionId;
+
     @SerializedName("status")
     private InvoiceStatus status;
 
@@ -143,6 +146,24 @@ public final class Invoice {
      */
     public void setCustomerId(final String customerId) {
         this.customerId = customerId;
+    }
+
+    /**
+     * Get subscriptionId.
+     *
+     * @return subscriptionId
+     */
+    public UUID getSubscriptionId() {
+        return subscriptionId;
+    }
+
+    /**
+     * Set subscriptionId.
+     *
+     * @param subscriptionId subscriptionId
+     */
+    public void setSubscriptionId(final UUID subscriptionId) {
+        this.subscriptionId = subscriptionId;
     }
 
     /**
@@ -548,6 +569,7 @@ public final class Invoice {
         sb.append("id=").append(id).append(", ");
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId).append(", ");
+        sb.append("subscriptionId=").append(subscriptionId).append(", ");
         sb.append("status=").append(status).append(", ");
         sb.append("statusContext=").append(statusContext).append(", ");
         sb.append("address=").append(address).append(", ");
