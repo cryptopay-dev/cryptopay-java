@@ -232,6 +232,17 @@ public class Invoices {
         }
 
         /**
+         * Set subscriptionId.
+         *
+         * @param subscriptionId
+         * @return listCall
+         */
+        public ListCall subscriptionId(final String subscriptionId) {
+            request.addQueryParam("subscription_id", subscriptionId.toString());
+            return this;
+        }
+
+        /**
          * Execute list request.
          *
          * @return InvoiceListResult

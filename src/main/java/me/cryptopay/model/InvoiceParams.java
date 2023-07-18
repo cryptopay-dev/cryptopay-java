@@ -43,6 +43,9 @@ public final class InvoiceParams {
     @SerializedName("unsuccess_redirect_url")
     private URI unsuccessRedirectUrl;
 
+    @SerializedName("payer_email")
+    private String payerEmail;
+
     /** Creates a new instance of InvoiceParams. */
     public InvoiceParams() {}
 
@@ -244,6 +247,24 @@ public final class InvoiceParams {
         this.unsuccessRedirectUrl = unsuccessRedirectUrl;
     }
 
+    /**
+     * Get payerEmail.
+     *
+     * @return payerEmail
+     */
+    public String getPayerEmail() {
+        return payerEmail;
+    }
+
+    /**
+     * Set payerEmail.
+     *
+     * @param payerEmail payerEmail
+     */
+    public void setPayerEmail(final String payerEmail) {
+        this.payerEmail = payerEmail;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -258,7 +279,8 @@ public final class InvoiceParams {
         sb.append("description=").append(description).append(", ");
         sb.append("metadata=").append(metadata).append(", ");
         sb.append("successRedirectUrl=").append(successRedirectUrl).append(", ");
-        sb.append("unsuccessRedirectUrl=").append(unsuccessRedirectUrl);
+        sb.append("unsuccessRedirectUrl=").append(unsuccessRedirectUrl).append(", ");
+        sb.append("payerEmail=").append(payerEmail);
         sb.append(")");
         return sb.toString();
     }

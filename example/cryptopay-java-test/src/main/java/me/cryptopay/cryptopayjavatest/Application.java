@@ -4,6 +4,7 @@ import me.cryptopay.Cryptopay;
 import me.cryptopay.exception.ApiException;
 import me.cryptopay.model.Account;
 import me.cryptopay.model.Customer;
+import me.cryptopay.model.CustomerAddress;
 import me.cryptopay.model.CustomerParams;
 import me.cryptopay.model.ExchangeTransfer;
 import me.cryptopay.model.ExchangeTransferParams;
@@ -14,12 +15,16 @@ import me.cryptopay.model.Rate;
 import me.cryptopay.model.Transaction;
 import me.cryptopay.model.TransactionListResult;
 import me.cryptopay.model.TransactionReferenceType;
+import me.cryptopay.model.SubscriptionParams;
+import me.cryptopay.model.SubscriptionPeriod;
+import me.cryptopay.model.SubscriptionResult;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.math.BigDecimal;
 import java.net.URI;
+import java.time.OffsetDateTime;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
@@ -43,6 +48,7 @@ public class Application {
         retrieveRate(cryptopay);
         listTransactions(cryptopay);
         createExchangeTransfer(cryptopay);
+        createSubscription(cryptopay);
     }
 
     private static void listCoinWithdrawalNetworkFees(Cryptopay cryptopay) throws ApiException {
@@ -52,12 +58,15 @@ public class Application {
     }
 
     private static void createCustomer(Cryptopay cryptopay) throws ApiException {
+        CustomerAddress customerAddress = new CustomerAddress();
+        customerAddress.setAddress("2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg");
+        customerAddress.setCurrency("BTC");
+        customerAddress.setNetwork("bitcoin");
+
         CustomerParams customerParams = new CustomerParams();
         customerParams.setId(RandomStringUtils.randomAlphanumeric(32));
         customerParams.setCurrency("BTC");
-        customerParams.setRefundAddresses(Map.of(
-                    "BTC", "2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg",
-                    "ETH", "0x54baa6f4ff2374b2f8f3a32c0c3dad0acbdb42b2"));
+        customerParams.setAddresses(List.of(customerAddress));
 
         Customer customer = cryptopay.customers().create(customerParams).execute().getData();
 
@@ -128,5 +137,20 @@ public class Application {
             .execute().getData();
 
         LOGGER.info("ExchangeTransfer: {}", transfer);
+    }
+
+    private static void createSubscription(Cryptopay cryptopay) throws ApiException {
+        SubscriptionParams subscriptionParams = new SubscriptionParams();
+        subscriptionParams.setName("Subscription name");
+        subscriptionParams.setAmount(BigDecimal.valueOf(100.0));
+        subscriptionParams.setCurrency("EUR");
+        subscriptionParams.setPeriod(SubscriptionPeriod.MONTH);
+        subscriptionParams.setPeriodQuantity(3);
+        subscriptionParams.setPayerEmail("user@example.com");
+        subscriptionParams.setStartsAt(OffsetDateTime.now().plusWeeks(1));
+
+        SubscriptionResult result = cryptopay.subscriptions().create(subscriptionParams).execute();
+
+        LOGGER.info("Subscription: {}", result.getData());
     }
 }

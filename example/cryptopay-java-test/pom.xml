@@ -14,7 +14,7 @@
     <properties>
         <java.version>11</java.version>
         <encoding>UTF-8</encoding>
-        <cryptopay-java.version>0.0.1</cryptopay-java.version>
+        <cryptopay-java.version>2.1.0</cryptopay-java.version>
         <logback.version>1.2.10</logback.version>
         <commons-configuration2.version>2.7</commons-configuration2.version>
     </properties>

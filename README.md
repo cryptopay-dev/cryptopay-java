@@ -21,6 +21,7 @@ For more information, please visit [Cryptopay API docs](https://developers.crypt
   * [Invoices](#invoices)
   * [Rates](#rates)
   * [Risks](#risks)
+  * [Subscriptions](#subscriptions)
   * [Transactions](#transactions)
 * [Callbacks](#callbacks)
 * [Development](#development)
@@ -38,14 +39,14 @@ For _Maven_, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>me.cryptopay</groupId>
     <artifactId>cryptopay-java</artifactId>
-    <version>2.0.0</version>
+    <version>2.1.0</version>
 </dependency>
 ```
 
 For _Gradle_, add the following dependency to your `build.gradle`:
 
 ```groovy
-implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '2.0.0'
+implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '2.1.0'
 ```
 
 ### Requirements
@@ -447,6 +448,54 @@ riskParams.setCurrency("BTC");
 riskParams.setType(RiskType.SOURCE_OF_FUNDS);
 
 RiskResult result = cryptopay.risks().score(riskParams).execute();
+```
+
+### Subscriptions
+
+
+#### Cancel a subscription
+
+```java
+UUID subscriptionId = UUID.fromString("64249ede-8969-4d5c-a042-806f9c3e7db3");
+
+SubscriptionResult result = cryptopay.subscriptions().cancel(subscriptionId).execute();
+```
+
+#### Create a subscription
+
+```java
+SubscriptionParams subscriptionParams = new SubscriptionParams();
+subscriptionParams.setName("Subscription name");
+subscriptionParams.setAmount(BigDecimal.valueOf(100.0));
+subscriptionParams.setCurrency("EUR");
+subscriptionParams.setPeriod(SubscriptionPeriod.MONTH);
+subscriptionParams.setPeriodQuantity(3);
+subscriptionParams.setPayerEmail("user@example.com");
+subscriptionParams.setStartsAt(OffsetDateTime.now().plusWeeks(1));
+
+SubscriptionResult result = cryptopay.subscriptions().create(subscriptionParams).execute();
+```
+
+#### List subscriptions
+
+```java
+SubscriptionListResult result = cryptopay.subscriptions().list().execute();
+```
+
+#### Retrieve a subscription
+
+```java
+UUID subscriptionId = UUID.fromString("64249ede-8969-4d5c-a042-806f9c3e7db3");
+
+SubscriptionResult result = cryptopay.subscriptions().retrieve(subscriptionId).execute();
+```
+
+#### Retrieve a subscription by custom_id
+
+```java
+String customId = "PAYMENT-123";
+
+SubscriptionResult result = cryptopay.subscriptions().retrieveByCustomId("PAYMENT-123").execute();
 ```
 
 ### Transactions
