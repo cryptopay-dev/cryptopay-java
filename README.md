@@ -20,7 +20,6 @@ For more information, please visit [Cryptopay API docs](https://developers.crypt
   * [ExchangeTransfers](#exchangetransfers)
   * [Invoices](#invoices)
   * [Rates](#rates)
-  * [Risks](#risks)
   * [Subscriptions](#subscriptions)
   * [Transactions](#transactions)
 * [Callbacks](#callbacks)
@@ -433,21 +432,6 @@ String baseCurrency = "BTC";
 String quoteCurrency = "EUR";
 
 RateResult result = cryptopay.rates().retrieve(baseCurrency, quoteCurrency).execute();
-```
-
-### Risks
-
-[Risks API docs](https://developers.cryptopay.me/guides/risks)
-
-#### Score a coin address
-
-```java
-RiskParams riskParams = new RiskParams();
-riskParams.setAddress("2NGPwyaRTrKpjf9njHQDfXAReb2iwbYkZrg");
-riskParams.setCurrency("BTC");
-riskParams.setType(RiskType.SOURCE_OF_FUNDS);
-
-RiskResult result = cryptopay.risks().score(riskParams).execute();
 ```
 
 ### Subscriptions

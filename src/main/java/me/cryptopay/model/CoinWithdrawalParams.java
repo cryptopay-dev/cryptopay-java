@@ -41,6 +41,12 @@ public final class CoinWithdrawalParams {
     @SerializedName("force_commit")
     private Boolean forceCommit;
 
+    @SerializedName("travel_rule_compliant")
+    private Boolean travelRuleCompliant;
+
+    @SerializedName("beneficiary")
+    private Beneficiary beneficiary;
+
     /** Creates a new instance of CoinWithdrawalParams. */
     public CoinWithdrawalParams() {}
 
@@ -242,6 +248,42 @@ public final class CoinWithdrawalParams {
         this.forceCommit = forceCommit;
     }
 
+    /**
+     * Get travelRuleCompliant.
+     *
+     * @return travelRuleCompliant
+     */
+    public Boolean getTravelRuleCompliant() {
+        return travelRuleCompliant;
+    }
+
+    /**
+     * Set travelRuleCompliant.
+     *
+     * @param travelRuleCompliant travelRuleCompliant
+     */
+    public void setTravelRuleCompliant(final Boolean travelRuleCompliant) {
+        this.travelRuleCompliant = travelRuleCompliant;
+    }
+
+    /**
+     * Get beneficiary.
+     *
+     * @return beneficiary
+     */
+    public Beneficiary getBeneficiary() {
+        return beneficiary;
+    }
+
+    /**
+     * Set beneficiary.
+     *
+     * @param beneficiary beneficiary
+     */
+    public void setBeneficiary(final Beneficiary beneficiary) {
+        this.beneficiary = beneficiary;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -256,7 +298,9 @@ public final class CoinWithdrawalParams {
         sb.append("customId=").append(customId).append(", ");
         sb.append("customerId=").append(customerId).append(", ");
         sb.append("networkFeeLevel=").append(networkFeeLevel).append(", ");
-        sb.append("forceCommit=").append(forceCommit);
+        sb.append("forceCommit=").append(forceCommit).append(", ");
+        sb.append("travelRuleCompliant=").append(travelRuleCompliant).append(", ");
+        sb.append("beneficiary=").append(beneficiary);
         sb.append(")");
         return sb.toString();
     }
