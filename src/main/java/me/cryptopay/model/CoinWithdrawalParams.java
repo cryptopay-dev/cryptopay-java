@@ -20,12 +20,15 @@ public final class CoinWithdrawalParams {
     @SerializedName("network")
     private String network;
 
+    @Deprecated
     @SerializedName("charged_amount")
     private BigDecimal chargedAmount;
 
+    @Deprecated
     @SerializedName("charged_amount_to_send")
     private BigDecimal chargedAmountToSend;
 
+    @Deprecated
     @SerializedName("received_amount")
     private BigDecimal receivedAmount;
 
@@ -46,6 +49,18 @@ public final class CoinWithdrawalParams {
 
     @SerializedName("beneficiary")
     private Beneficiary beneficiary;
+
+    @SerializedName("amount")
+    private BigDecimal amount;
+
+    @SerializedName("amount_currency")
+    private String amountCurrency;
+
+    @SerializedName("amount_includes_processing_fee")
+    private Boolean amountIncludesProcessingFee;
+
+    @SerializedName("amount_includes_network_fee")
+    private Boolean amountIncludesNetworkFee;
 
     /** Creates a new instance of CoinWithdrawalParams. */
     public CoinWithdrawalParams() {}
@@ -126,7 +141,9 @@ public final class CoinWithdrawalParams {
      * Get chargedAmount.
      *
      * @return chargedAmount
+     * @deprecated
      */
+    @Deprecated
     public BigDecimal getChargedAmount() {
         return chargedAmount;
     }
@@ -135,7 +152,9 @@ public final class CoinWithdrawalParams {
      * Set chargedAmount.
      *
      * @param chargedAmount chargedAmount
+     * @deprecated
      */
+    @Deprecated
     public void setChargedAmount(final BigDecimal chargedAmount) {
         this.chargedAmount = chargedAmount;
     }
@@ -144,7 +163,9 @@ public final class CoinWithdrawalParams {
      * Get chargedAmountToSend.
      *
      * @return chargedAmountToSend
+     * @deprecated
      */
+    @Deprecated
     public BigDecimal getChargedAmountToSend() {
         return chargedAmountToSend;
     }
@@ -153,7 +174,9 @@ public final class CoinWithdrawalParams {
      * Set chargedAmountToSend.
      *
      * @param chargedAmountToSend chargedAmountToSend
+     * @deprecated
      */
+    @Deprecated
     public void setChargedAmountToSend(final BigDecimal chargedAmountToSend) {
         this.chargedAmountToSend = chargedAmountToSend;
     }
@@ -162,7 +185,9 @@ public final class CoinWithdrawalParams {
      * Get receivedAmount.
      *
      * @return receivedAmount
+     * @deprecated
      */
+    @Deprecated
     public BigDecimal getReceivedAmount() {
         return receivedAmount;
     }
@@ -171,7 +196,9 @@ public final class CoinWithdrawalParams {
      * Set receivedAmount.
      *
      * @param receivedAmount receivedAmount
+     * @deprecated
      */
+    @Deprecated
     public void setReceivedAmount(final BigDecimal receivedAmount) {
         this.receivedAmount = receivedAmount;
     }
@@ -284,6 +311,78 @@ public final class CoinWithdrawalParams {
         this.beneficiary = beneficiary;
     }
 
+    /**
+     * Get amount.
+     *
+     * @return amount
+     */
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    /**
+     * Set amount.
+     *
+     * @param amount amount
+     */
+    public void setAmount(final BigDecimal amount) {
+        this.amount = amount;
+    }
+
+    /**
+     * Get amountCurrency.
+     *
+     * @return amountCurrency
+     */
+    public String getAmountCurrency() {
+        return amountCurrency;
+    }
+
+    /**
+     * Set amountCurrency.
+     *
+     * @param amountCurrency amountCurrency
+     */
+    public void setAmountCurrency(final String amountCurrency) {
+        this.amountCurrency = amountCurrency;
+    }
+
+    /**
+     * Get amountIncludesProcessingFee.
+     *
+     * @return amountIncludesProcessingFee
+     */
+    public Boolean getAmountIncludesProcessingFee() {
+        return amountIncludesProcessingFee;
+    }
+
+    /**
+     * Set amountIncludesProcessingFee.
+     *
+     * @param amountIncludesProcessingFee amountIncludesProcessingFee
+     */
+    public void setAmountIncludesProcessingFee(final Boolean amountIncludesProcessingFee) {
+        this.amountIncludesProcessingFee = amountIncludesProcessingFee;
+    }
+
+    /**
+     * Get amountIncludesNetworkFee.
+     *
+     * @return amountIncludesNetworkFee
+     */
+    public Boolean getAmountIncludesNetworkFee() {
+        return amountIncludesNetworkFee;
+    }
+
+    /**
+     * Set amountIncludesNetworkFee.
+     *
+     * @param amountIncludesNetworkFee amountIncludesNetworkFee
+     */
+    public void setAmountIncludesNetworkFee(final Boolean amountIncludesNetworkFee) {
+        this.amountIncludesNetworkFee = amountIncludesNetworkFee;
+    }
+
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -300,7 +399,11 @@ public final class CoinWithdrawalParams {
         sb.append("networkFeeLevel=").append(networkFeeLevel).append(", ");
         sb.append("forceCommit=").append(forceCommit).append(", ");
         sb.append("travelRuleCompliant=").append(travelRuleCompliant).append(", ");
-        sb.append("beneficiary=").append(beneficiary);
+        sb.append("beneficiary=").append(beneficiary).append(", ");
+        sb.append("amount=").append(amount).append(", ");
+        sb.append("amountCurrency=").append(amountCurrency).append(", ");
+        sb.append("amountIncludesProcessingFee=").append(amountIncludesProcessingFee).append(", ");
+        sb.append("amountIncludesNetworkFee=").append(amountIncludesNetworkFee);
         sb.append(")");
         return sb.toString();
     }

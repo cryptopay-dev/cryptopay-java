@@ -13,9 +13,7 @@
         "contains": "Cryptopay Java"
       }
     },
-    "bodyPatterns": [{
-      "equalToJson": "{\"address\":\"0xf3532c1fd002665ec54d46a50787e0c69c76cd44\"}"
-    }]
+    "bodyPatterns": []
   },
   "response": {
     "status": 201,

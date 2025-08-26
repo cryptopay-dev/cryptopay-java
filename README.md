@@ -38,14 +38,14 @@ For _Maven_, add the following dependency to your `pom.xml`:
 <dependency>
     <groupId>me.cryptopay</groupId>
     <artifactId>cryptopay-java</artifactId>
-    <version>2.2.0</version>
+    <version>2.3.0</version>
 </dependency>
 ```
 
 For _Gradle_, add the following dependency to your `build.gradle`:
 
 ```groovy
-implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '2.2.0'
+implementation group: 'me.cryptopay', name: 'cryptopay-java', version: '2.3.0'
 ```
 
 ### Requirements
@@ -380,10 +380,7 @@ InvoiceRecalculationResult result = cryptopay.invoices()
 ```java
 UUID invoiceId = UUID.fromString("7e274430-e20f-4321-8748-20824287ae44");
 
-InvoiceRefundParams invoiceRefundParams = new InvoiceRefundParams();
-invoiceRefundParams.setAddress("0xf3532c1fd002665ec54d46a50787e0c69c76cd44");
-
-InvoiceRefundResult result = cryptopay.invoices().createRefund(invoiceId, invoiceRefundParams).execute();
+InvoiceRefundResult result = cryptopay.invoices().createRefund(invoiceId).execute();
 ```
 
 #### List invoices
