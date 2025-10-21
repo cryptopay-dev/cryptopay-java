@@ -95,11 +95,7 @@ public class InvoicesTest {
     public void createRefundTest() throws ApiException {
         UUID invoiceId = UUID.fromString("7e274430-e20f-4321-8748-20824287ae44");
 
-        InvoiceRefundParams invoiceRefundParams = new InvoiceRefundParams();
-        invoiceRefundParams.setAddress("0xf3532c1fd002665ec54d46a50787e0c69c76cd44");
-
-        InvoiceRefundResult result =
-                cryptopay.invoices().createRefund(invoiceId, invoiceRefundParams).execute();
+        InvoiceRefundResult result = cryptopay.invoices().createRefund(invoiceId).execute();
 
         assertThat(result.getData(), notNullValue());
     }

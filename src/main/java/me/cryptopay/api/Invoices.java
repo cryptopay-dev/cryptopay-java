@@ -11,7 +11,6 @@ import me.cryptopay.model.InvoiceParams;
 import me.cryptopay.model.InvoiceRecalculationParams;
 import me.cryptopay.model.InvoiceRecalculationResult;
 import me.cryptopay.model.InvoiceRefundListResult;
-import me.cryptopay.model.InvoiceRefundParams;
 import me.cryptopay.model.InvoiceRefundResult;
 import me.cryptopay.model.InvoiceResult;
 import me.cryptopay.net.ApiClient;
@@ -67,12 +66,10 @@ public class Invoices {
      * Create invoice refund.
      *
      * @param invoiceId Invoice ID
-     * @param invoiceRefundParams
      * @return CreateRefundCall
      */
-    public CreateRefundCall createRefund(
-            final UUID invoiceId, final InvoiceRefundParams invoiceRefundParams) {
-        return new CreateRefundCall(invoiceId, invoiceRefundParams);
+    public CreateRefundCall createRefund(final UUID invoiceId) {
+        return new CreateRefundCall(invoiceId);
     }
 
     /**
@@ -183,11 +180,20 @@ public class Invoices {
     public final class CreateRefundCall {
         private final ApiRequest request;
 
-        private CreateRefundCall(
-                final UUID invoiceId, final InvoiceRefundParams invoiceRefundParams) {
+        private CreateRefundCall(final UUID invoiceId) {
             this.request = new ApiRequest("POST", "/api/invoices/{invoice_id}/refunds");
             request.addPathParam("invoice_id", invoiceId.toString());
-            request.setBody(invoiceRefundParams);
+        }
+
+        /**
+         * Set body.
+         *
+         * @param body
+         * @return createRefundCall
+         */
+        public CreateRefundCall body(final Object body) {
+            request.setBody(body);
+            return this;
         }
 
         /**
